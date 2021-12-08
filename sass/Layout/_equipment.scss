@@ -1,0 +1,83 @@
+#equipment {
+    padding-top: 130px;
+    background-color: $bg;
+
+    .title {
+        border-bottom: 1px solid $border;
+        padding-bottom: 15px;
+        margin-bottom: 45px;
+
+        h2 {
+            font: normal bold 30px 'Montserrat', sans-serif;
+            line-height: 44px;
+            color: $main;
+        }
+
+        .next-page {
+            font: normal 500 16px 'Montserrat', sans-serif;
+            line-height: 31px; 
+            color: $main;
+            img{
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .new_arrival_item {
+        background-color: $white;
+        padding: 15px 15px 10px 15px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+
+        .image {
+            border-bottom: 1px solid $grid-border;
+            position: relative;
+            .heading {
+                position: absolute;
+                width: 100%;
+                background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
+                h3 {
+                    font: normal bold 16px 'Montserrat', sans-serif;
+                    line-height: 33px;
+                    text-align: center;
+                    color: $black;
+                    &:hover{
+                        color: $main;
+                    }
+                }
+
+                button {
+                    background-color: $bg-btn;
+                    border: none;
+                    outline: none;
+                    padding: 13px 16px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .text {
+
+            font: normal 500 13px 'Montserrat', sans-serif;
+            line-height: 19px;
+            text-align: center;
+            color: #000000;
+            padding-top: 10px;
+        }
+
+
+    }
+
+    .slick-slide {
+        padding: 10px;
+    }
+
+    @media (min-width: 1200px) {
+
+
+        .slick-slide:nth-child(4) {
+            padding-right: 0px;
+        }
+    }
+
+}

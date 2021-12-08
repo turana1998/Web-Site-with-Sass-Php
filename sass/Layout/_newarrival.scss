@@ -1,0 +1,102 @@
+#new_arrival {
+    padding-top: 160px;
+    background-color: $bg;
+    .regular .next{
+        position: absolute;
+        top:-27%;
+        right: 0;
+        width: auto;
+        background: $main;
+        padding: 13px;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .regular .prev{
+        position: absolute;
+        top:-27%;
+        right: 5%;
+        width: auto;
+        background: $white;
+        padding: 13px;
+        border-radius: 50%;
+        border: 1px solid $slick-border;
+        outline: none;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .title {
+        border-bottom: 1px solid $border;
+        padding-bottom: 15px;
+        margin-bottom: 45px;
+
+        h2 {
+            font: normal bold 30px 'Montserrat', sans-serif;
+            line-height: 44px;
+            color: $main;
+        }
+    }
+
+    .new_arrival_item {
+        background-color: $white;
+        padding: 15px 15px 10px 15px;
+        border-radius: 10px;
+
+        .image {
+            border-bottom: 1px solid $grid-border;
+            position: relative;
+           
+            .heading {
+                position: absolute;
+                width: 100%;
+                background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
+                h3 {
+                    font: normal bold 16px 'Montserrat', sans-serif;
+                    line-height: 33px;
+                    text-align: center;
+                    color: $black;
+                    &:hover{
+                        color: $main;
+                    }
+                }
+
+                button {
+                    background-color: $bg-btn;
+                    border: none;
+                    outline: none;
+                    padding: 13px;
+                    border-radius: 50%;
+                    
+                }
+            }
+        }
+
+        .text {
+
+            font: normal 500 13px 'Montserrat', sans-serif;
+            line-height: 19px;
+            text-align: center;
+            color: #000000;
+            padding-top: 10px;
+        }
+
+
+    }
+    .slick-slide {
+        padding: 10px;
+    }
+    @media (min-width: 1200px) {
+       
+
+        .slick-slide:nth-child(4) {
+            padding-right: 0px;
+        }
+    }
+
+}

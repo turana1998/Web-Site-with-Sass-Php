@@ -1,0 +1,93 @@
+#top_navbar {
+    border-bottom: 1px solid $border;
+    background-color: $white;
+}
+
+.top__nav {
+    padding: 15px 0;
+    display: $flex;
+    justify-content: $justify-content-between;
+
+    .contact__information ul li {
+        display: inline;
+        margin-right: 40px;
+
+        a {
+            font: normal 600 12px 'Montserrat', sans-serif;
+            line-height: 12px;
+            letter-spacing: 0.03em;
+            color: $black;
+        }
+
+        img {
+            margin-right: 12px;
+        }
+    }
+
+    .sosial__media {
+        a {
+            margin-right: 20px;
+        }
+
+        a i {
+            width: 16px;
+            height: 16px;
+            color: $black;
+        }
+
+        select {
+            border: none;
+            outline: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            font: normal 500 12px 'Montserrat', sans-serif;
+            font-size: 14px;
+            line-height: 12px;
+            letter-spacing: 0.06em;
+            color: $black;
+            margin-left: 10px;
+
+            ::-ms-expand {
+                display: none;
+            }
+        }
+    }
+}
+
+.botton__nav {
+    background-color: $white;
+
+    .navbar-nav .nav-item .nav-link {
+        font: normal 600 16px 'Montserrat', sans-serif;
+        line-height: 12px;
+        color: $black;
+        margin-right: 50px;
+    }
+
+    .overlay {
+        height: 150px;
+        width: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: $white;
+        form{
+            border-bottom: 1px solid $border-input;
+        }
+    }
+
+    .overlay .closebtn {
+        text-align: end;
+    }
+    .overlay input[type=text] {
+        padding: 15px;
+        font: normal 500 22px 'Montserrat', sans-serif;
+        border: none;
+        background:$white;
+        line-height: 12px;
+        color: $input;
+    }
+
+}
