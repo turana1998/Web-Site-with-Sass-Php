@@ -1,0 +1,182 @@
+#media_{
+    padding-top: 85px;
+    background-color: $bg;
+    .menu-link {
+        margin-bottom: 30px;
+    }
+    .title {
+        border-bottom: 1px solid $border;
+        padding-bottom: 15px;
+        margin-bottom: 45px;
+        ::marker{
+            color: $link;
+        }
+        a {
+            font: normal 500 12px 'Montserrat', sans-serif;
+            line-height: 12px;
+            color: $link;
+            margin-right: 15px;
+
+        }
+
+        .current-page {
+            a {
+                color: $black !important;
+            }
+            &::marker{
+                color: $black !important;
+            }
+        }
+
+        h2 {
+            font: normal bold 30px 'Montserrat', sans-serif;
+            line-height: 44px;
+            color: $main;
+        }
+
+        .next-page {
+            font: normal 500 16px 'Montserrat', sans-serif;
+            line-height: 31px;
+            color: $main;
+
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .news {
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 30px;
+        .text_ {
+            border-radius: 10px;
+            position: absolute;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px 20px 15px 25px;
+
+            h4 {
+                font: normal 600 16px 'Montserrat', sans-serif;
+                color: $black;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font: normal 300 13px 'Montserrat', sans-serif;
+                line-height: 17px;
+                color: $black;
+                margin-bottom: 30px;
+            }
+
+            .time {
+                font: normal normal 12px 'Montserrat', sans-serif;
+                line-height: 24px;
+                color: $ligt_grey;
+            }
+        }
+
+
+    }
+    .news_img {
+
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    h3 {
+        font: normal 600 23px 'Montserrat', sans-serif;
+        line-height: 34px;
+         color: $black;
+    }
+    span{
+        font: normal normal 14px 'Montserrat', sans-serif;
+        line-height: 29px;
+        color: #3F3F3F;
+    }
+    p{
+        font: normal normal 16px 'Montserrat', sans-serif;
+        line-height: 29px;
+        color: $black;
+        margin-top: 40px;
+
+    }
+}
+#media {
+    padding-top: 130px;
+    background-color: $bg;
+
+    .title {
+        border-bottom: 1px solid $border;
+        padding-bottom: 15px;
+        margin-bottom: 45px;
+        ::marker{
+            color: $link;
+        }
+        a {
+            font: normal 500 12px 'Montserrat', sans-serif;
+            line-height: 12px;
+            color: $link;
+            margin-right: 15px;
+
+        }
+
+        .current-page {
+            a {
+                color: $black !important;
+            }
+            &::marker{
+                color: $black !important;
+            }
+        }
+
+        h2 {
+            font: normal bold 30px 'Montserrat', sans-serif;
+            line-height: 44px;
+            color: $main;
+        }
+
+        .next-page {
+            font: normal 500 16px 'Montserrat', sans-serif;
+            line-height: 31px;
+            color: $main;
+
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .news {
+        border-radius: 10px;
+        position: relative;
+        .text_ {
+            border-radius: 10px;
+            position: absolute;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px 20px 15px 25px;
+
+            h4 {
+                font: normal 600 16px 'Montserrat', sans-serif;
+                color: $black;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font: normal 300 13px 'Montserrat', sans-serif;
+                line-height: 17px;
+                color: $black;
+                margin-bottom: 30px;
+            }
+
+            .time {
+                font: normal normal 12px 'Montserrat', sans-serif;
+                line-height: 24px;
+                color: $ligt_grey;
+            }
+        }
+
+
+    }
+}

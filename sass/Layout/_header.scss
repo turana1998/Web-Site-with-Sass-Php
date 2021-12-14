@@ -1,67 +1,69 @@
-#header {
-    .header-item {
-        background-repeat: no-repeat;
-        height: 600px;
-        background-size: 100% 100%;
-        display: flex !important;
-        align-items: center;
+@media (min-width: 993px) {
+    #header {
+        .header-item {
+            background-repeat: no-repeat;
+            height: 600px;
+            background-size: 100% 100%;
+            display: flex !important;
+            align-items: center;
 
-        .header-item_detail {
-            background: rgba(255, 255, 255, 0.6);
-            border-radius: 20px;
-            padding: 55px 75px;
+            .header-item_detail {
+                background: rgba(255, 255, 255, 0.6);
+                border-radius: 20px;
+                padding: 55px 75px;
 
-            h2 {
-                font: normal bold 30px "Montserrat", sans-serif;
-                line-height: 44px;
-                color: $black;
-                margin-bottom: 15px;
-            }
+                h2 {
+                    font: normal bold 30px "Montserrat", sans-serif;
+                    line-height: 44px;
+                    color: $black;
+                    margin-bottom: 15px;
+                }
 
-            p {
-                font: normal normal 18px "Montserrat", sans-serif;
-                line-height: 31px;
-                color: $black;
-                margin-bottom: 40px;
-            }
+                p {
+                    font: normal normal 18px "Montserrat", sans-serif;
+                    line-height: 31px;
+                    color: $black;
+                    margin-bottom: 40px;
+                }
 
-            button {
-                background: $main;
-                border-radius: 5px;
-                padding: 15px 35px;
-                font: normal normal 16px "Montserrat", sans-serif;
-                line-height: 33px;
-                color: $white;
-                cursor: pointer;
+                button {
+                    background: $main;
+                    border-radius: 5px;
+                    padding: 15px 35px;
+                    font: normal normal 16px "Montserrat", sans-serif;
+                    line-height: 33px;
+                    color: $white;
+                    cursor: pointer;
+                }
             }
         }
-    }
 
-    .slick-dots {
-        top: 35%;
-        left: 0;
-        right: 0;
-        margin: auto;
+        .slick-dots {
+            top: 35%;
+            left: 0;
+            right: 0;
+            margin: auto;
 
-        .slick-active button:before {
-            color: $main;
-            padding: 3px 5px;
-        }
+            .slick-active button:before {
+                color: $main;
+                padding: 3px 5px;
+            }
 
-        .slick-active {
-            border: 1px solid $main;
-            padding: 13px;
-            border-radius: 50%;
-        }
+            .slick-active {
+                border: 1px solid $main;
+                padding: 13px;
+                border-radius: 50%;
+            }
 
-        li {
-            display: block;
-            margin: 0 0 45px 0;
+            li {
+                display: block;
+                margin: 0 0 45px 0;
 
-            button:before {
-                font-size: 14px;
-                color: $white;
-                opacity: 1;
+                button:before {
+                    font-size: 14px;
+                    color: $white;
+                    opacity: 1;
+                }
             }
         }
     }

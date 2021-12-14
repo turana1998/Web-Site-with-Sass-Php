@@ -1,0 +1,84 @@
+#delivery {
+    padding-top: 85px;
+    background-color: $bg;
+
+    .menu-link {
+        margin-bottom: 30px;
+    }
+
+    .title {
+        border-bottom: 1px solid $border;
+        padding-bottom: 15px;
+        margin-bottom: 45px;
+
+        ::marker {
+            color: $link;
+        }
+
+        a {
+            font: normal 500 12px 'Montserrat', sans-serif;
+            line-height: 12px;
+            color: $link;
+            margin-right: 15px;
+
+        }
+
+        .current-page {
+            a {
+                color: $black !important;
+            }
+
+            &::marker {
+                color: $black !important;
+            }
+        }
+
+        h2 {
+            font: normal bold 30px 'Montserrat', sans-serif;
+            line-height: 44px;
+            color: $main;
+        }
+
+        .next-page {
+            font: normal 500 16px 'Montserrat', sans-serif;
+            line-height: 31px;
+            color: $main;
+
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .delivery_ {
+        background: $white;
+        border-radius: 10px;
+        padding: 50px;
+        text-align: center;
+        h3{
+            font: normal 500 18px 'Montserrat', sans-serif;
+            line-height: 29px;
+            color: $black;
+            margin-bottom: 50px;
+        }
+        tr{
+            padding-bottom: 10px;
+        }
+        p{
+            font: normal normal 18px 'Montserrat', sans-serif;
+            line-height: 28px;
+            color: #414141;
+            text-align: justify;
+            margin: 0;
+            
+            
+        }
+        span{
+            font: normal 500 18px 'Montserrat', sans-serif;
+            line-height: 28px;
+            color: #414141;
+            margin-left: 50px;
+        }
+    }
+
+}

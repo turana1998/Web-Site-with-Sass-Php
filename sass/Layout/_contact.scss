@@ -1,0 +1,66 @@
+#contact {
+    padding-top: 85px;
+    background-color: $bg;
+
+    .menu-link {
+        margin-bottom: 30px;
+    }
+
+    .title {
+        border-bottom: 1px solid $border;
+        padding-bottom: 15px;
+        margin-bottom: 45px;
+
+        ::marker {
+            color: $link;
+        }
+
+        a {
+            font: normal 500 12px 'Montserrat', sans-serif;
+            line-height: 12px;
+            color: $link;
+            margin-right: 15px;
+
+        }
+
+        .current-page {
+            a {
+                color: $black !important;
+            }
+
+            &::marker {
+                color: $black !important;
+            }
+        }
+
+        h2 {
+            font: normal bold 30px 'Montserrat', sans-serif;
+            line-height: 44px;
+            color: $main;
+        }
+
+        .next-page {
+            font: normal 500 16px 'Montserrat', sans-serif;
+            line-height: 31px;
+            color: $main;
+
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    table {
+        td {
+                font: normal 500 16px 'Montserrat', sans-serif;
+                line-height: 12px;
+                color: $black;
+                padding-bottom: 25px;
+                padding-right: 80px;
+                p{
+                    display: inline;
+                }
+        }
+    }
+
+}

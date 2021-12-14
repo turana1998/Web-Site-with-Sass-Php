@@ -1,0 +1,33 @@
+#partners {
+    padding-top: 130px;
+    background-color: $bg;
+
+    .title {
+        border-bottom: 1px solid $border;
+        padding-bottom: 15px;
+        margin-bottom: 45px;
+
+        h2 {
+            font: normal bold 30px 'Montserrat', sans-serif;
+            line-height: 44px;
+            color: $main;
+        }
+
+        .next-page {
+            font: normal 500 16px 'Montserrat', sans-serif;
+            line-height: 31px;
+            color: $main;
+
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+    .item{
+        height: 125px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+}

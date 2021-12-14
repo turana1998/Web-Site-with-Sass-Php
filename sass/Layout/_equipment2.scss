@@ -1,3 +1,142 @@
+#__equipment {
+    padding-top: 85px;
+    background-color: $bg;
+
+    .menu-link {
+        margin-bottom: 30px;
+    }
+
+    .title {
+        border-bottom: 1px solid $border;
+        margin-bottom: 25px;
+        ::marker{
+            color: $link;
+        }
+        a {
+            font: normal 500 12px 'Montserrat', sans-serif;
+            line-height: 12px;
+            color: $link;
+            margin-right: 15px;
+
+        }
+
+        .current-page {
+            a {
+                color: $black !important;
+            }
+            &::marker{
+                color: $black !important;
+            }
+        }
+
+        h2 {
+            font: normal bold 30px 'Montserrat', sans-serif;
+            line-height: 44px;
+            color: $main;
+            padding-bottom: 15px;
+        }
+
+        .items {
+            .active {
+                color: $main;
+                font-weight: 600;
+                border-bottom: 2px solid $main;
+                display: inline;
+                line-height: 50px;
+            }
+
+            a {
+                font: normal 500 16px 'Montserrat', sans-serif;
+                line-height: 12px;
+                color: $black;
+                padding-bottom: 15px;
+                margin-left: 60px;
+                margin-right: 0;
+            }
+        }
+
+    }
+
+    .tab {
+        margin-bottom: 50px;
+        .active {
+            display: inline;
+            a{
+                font-weight: 600 !important;
+                color: $main !important;
+                display: inline;
+            }
+        }
+        .tablinks {
+            background-color: transparent;
+            border: none;
+            outline: none;
+
+            a {
+                font: normal normal 14px 'Montserrat', sans-serif;
+                letter-spacing: 0.02em;
+                color: $black;
+                margin-right: 30px;
+                display: inline;
+            }
+            
+        }
+    }
+    
+    .tabcontent {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+    .new_arrival_item {
+        background-color: $white;
+        padding: 15px 15px 10px 15px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+
+        .image {
+            border-bottom: 1px solid $grid-border;
+            position: relative;
+            .heading {
+                position: absolute;
+                width: 100%;
+                background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
+                h3 {
+                    font: normal bold 16px 'Montserrat', sans-serif;
+                    line-height: 33px;
+                    text-align: center;
+                    color: $black;
+                    &:hover{
+                        color: $main;
+                    }
+                }
+
+                button {
+                    background-color: $bg-btn;
+                    border: none;
+                    outline: none;
+                    padding: 13px 16px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .text {
+
+            font: normal 500 13px 'Montserrat', sans-serif;
+            line-height: 19px;
+            text-align: center;
+            color: #000000;
+            padding-top: 10px;
+        }
+
+
+    }
+
+}
+
 #_equipment {
     padding-top: 130px;
     background-color: $bg;
@@ -15,9 +154,10 @@
 
         .next-page {
             font: normal 500 16px 'Montserrat', sans-serif;
-            line-height: 31px; 
+            line-height: 31px;
             color: $black;
-            img{
+
+            img {
                 margin-left: 10px;
             }
         }
@@ -31,13 +171,15 @@
 
         .image {
             border-bottom: 1px solid $grid-border;
+
             .heading {
                 h3 {
                     font: normal bold 16px 'Montserrat', sans-serif;
                     line-height: 33px;
                     text-align: center;
                     color: $black;
-                    &:hover{
+
+                    &:hover {
                         color: $main;
                     }
                 }

@@ -59,9 +59,19 @@
 
     .navbar-nav .nav-item .nav-link {
         font: normal 600 16px 'Montserrat', sans-serif;
-        line-height: 12px;
+        line-height: 50px;
         color: $black;
         margin-right: 50px;
+        border-bottom: 1px solid $white;
+        &:hover{
+            color: $main;
+            border-bottom: 1px solid $main;
+        }
+        
+    }
+    .navbar-nav .nav-item .nav-link.show{
+        color: $main;
+        border-bottom: 1px solid $main;
     }
 
     .overlay {
@@ -73,7 +83,8 @@
         top: 0;
         left: 0;
         background-color: $white;
-        form{
+
+        form {
             border-bottom: 1px solid $border-input;
         }
     }
@@ -81,13 +92,89 @@
     .overlay .closebtn {
         text-align: end;
     }
+
     .overlay input[type=text] {
         padding: 15px;
         font: normal 500 22px 'Montserrat', sans-serif;
         border: none;
-        background:$white;
+        background: $white;
         line-height: 12px;
         color: $input;
     }
 
+}
+
+.fixed {
+    /* overflow: hidden; */
+    background-color: $white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.navbar .megamenu {
+    padding: 1rem;
+}
+
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+
+        &:hover {
+            .megamenu {
+                display: block;
+                position: absolute;
+                left: 0;
+                right: 0;
+                width: 100%;
+                margin-top: -2px;
+                top: 100%;
+                padding: 40px 100px;
+
+            }
+        }
+
+        .dropdown-toggle::after {
+            content: none !important;
+        }
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: -2px;
+
+        background-color: $white;
+        padding: 40px 100px;
+
+        h5 {
+            font: normal 600 17px "Montserrat", sans-serif;
+            line-height: 12px;
+            color: $black;
+        }
+
+        ul {
+            margin-top: 15px;
+
+            li a {
+                font: normal normal 15px "Montserrat", sans-serif;
+                line-height: 28px;
+                color: $black;
+            }
+        }
+    }
+
+}
+
+@media(max-width: 991px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
 }
