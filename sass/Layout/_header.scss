@@ -17,6 +17,9 @@
                     line-height: 44px;
                     color: $black;
                     margin-bottom: 15px;
+                    &:hover{
+                        color: $main;
+                    }
                 }
 
                 p {
@@ -34,6 +37,10 @@
                     line-height: 33px;
                     color: $white;
                     cursor: pointer;
+                    &:hover{
+                        background: $white;
+                        color: $main;
+                    }
                 }
             }
         }

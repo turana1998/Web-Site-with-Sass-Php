@@ -10,14 +10,13 @@
         crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
     <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./sass/style.css" />
     <title>Arash</title>
 </head>
@@ -155,7 +154,7 @@
                         <button type="button" class="openBtn border-0 outline-0 bg-transparent" onclick="openSearch()">
                             <img src="./img/search.png" />
                         </button>
-                        <div id="myOverlay" class="overlay pt-5">
+                        <div id="myOverlay" class="overlay pt-5 animate__animated animate__backInLeft">
                             <div class="container">
                                 <div class="closebtn" onclick="closeSearch()" title="Close Overlay">
                                     <img src="./img/cancel.png" />
@@ -176,101 +175,50 @@
         </div>
     </section>
     <!-- Navbar section end mobile -->
-    <section class="d-block d-sm-none">
-       
-            <nav class="navbar navbar-light ">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.php">
-                        <img src="./img/logo.png" />
-                    </a>
-                   <div class="d-flex">
-                   <select>
+    <section class="botton__nav d-block d-sm-none">
+
+        <nav class="navbar navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="index.php">
+                    <img src="./img/logo.png" />
+                </a>
+                <div class="d-flex">
+                    <select>
                         <option>EN</option>
                         <option>AZ</option>
                     </select>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                   </div>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                        aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                        <ul class="navbar-nav m-auto">
-                            <li class="nav-item dropdown has-megamenu active">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Məhsullar</a>
-                                <div class="dropdown-menu megamenu" role="menu">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-12 col-md-6 col-lg-3">
-                                                <div class="item">
-                                                    <a href="equipment.php">
-                                                        <h5>Stomatolojı avadanlıq</h5>
-                                                    </a>
-                                                    <ul>
-                                                        <li><a href="equipment-detail.php">Ajax Medical</a></li>
-                                                        <li><a href="#">Meta-Biomed</a></li>
-                                                        <li><a href="#">Anthogyr</a></li>
-                                                        <li><a href="#">Digimed</a></li>
-                                                        <li><a href="#">Digimed</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-6 col-lg-3">
-                                                <div class="item">
-                                                    <a href="equipment.php">
-                                                        <h5>Lazer avadanlığı</h5>
-                                                    </a>
-                                                    <ul>
-                                                        <li><a href="#">Candela</a></li>
-                                                        <li><a href="#">Lutronic</a></li>
-                                                        <li><a href="#">Zimmer</a></li>
-                                                        <li><a href="#">Nora Bode</a></li>
-                                                        <li><a href="#">Candela</a></li>
-                                                        <li><a href="#">Lutronic</a></li>
-                                                        <li><a href="#">Zimmer</a></li>
-                                                        <li><a href="#">Applisonix</a></li>
-                                                        <li><a href="#">Lutronic</a></li>
-                                                        <li><a href="#">Zimmer</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-6 col-lg-3">
-                                                <div class="item">
-                                                    <a href="equipment.php">
-                                                        <h5>Kosmetologiya</h5>
-                                                    </a>
-                                                    <ul>
-                                                        <li><a href="#">Ajax Medical</a></li>
-                                                        <li><a href="#">Meta-Biomed</a></li>
-                                                        <li><a href="#">Anthogyr</a></li>
-                                                        <li><a href="#">Digimed</a></li>
-                                                        <li><a href="#">Digimed</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-6 col-lg-3">
-                                                <div class="item">
-                                                    <a href="equipment.php">
-                                                        <h5>Stomatoloji preparatlar</h5>
-                                                    </a>
-                                                    <ul>
-                                                        <li><a href="#">Septodont </a></li>
-                                                        <li><a href="#">Cavex </a></li>
-                                                        <li><a href="#">Meta-Biomed</a></li>
-                                                        <li><a href="#">Tokuyama Dental</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                </div>
+                <div class="overlayy">
+                    <form action="#" class="d-flex justify-content-between">
+                        <input type="text" placeholder="Axtar..." name="search" />
+                        <button type="button" class="border-0 outline-0 bg-transparent">
+                            <img src="./img/search.png" />
+                        </button>
+                    </form>
+                </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header ">
 
-                                        </div>
-                                    </div>
-                                </div> <!-- dropdown-mega-menu.// -->
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body p-0">
+                        <ul class="navbar-nav m-auto">
+                            <li class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Məhsullar
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="#">Servis</a>
@@ -289,13 +237,10 @@
                                 <a class="nav-link" href="contact.php">Əlaqə</a>
                             </li>
                         </ul>
-                            <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
-                        </div>
+
                     </div>
                 </div>
-            </nav>
+            </div>
+        </nav>
 
     </section>

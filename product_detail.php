@@ -18,13 +18,16 @@
                 <h2>GentleLase Pro U</h2>
                 <p>Gentlase Pro U - alexandrit lazer cihazlarında qızıl standart</p>
             </div>
+            
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-4">
                     <div class="detail">
                         <div class="regular">
                             <div class="detail-item">
                                 <img src="./img/elm13.png" />
+                                <a class="popup-youtube " href="https://www.youtube.com/watch?v=pBFQdxA-apI">
                                 <button class="video"><i class="fab fa-youtube"></i></button>
+                                 </a>
                             </div>
                             <div class="detail-item">
                                 <img src="./img/elm13.png" />

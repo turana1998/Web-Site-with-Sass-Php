@@ -17,6 +17,9 @@
             line-height: 12px;
             letter-spacing: 0.03em;
             color: $black;
+            &:hover{
+                color: $main;
+            }
         }
 
         img {
@@ -27,13 +30,17 @@
     .sosial__media {
         a {
             margin-right: 20px;
+            i {
+                width: 16px;
+                height: 16px;
+                color: $black;
+                &:hover{
+                    color: $main;
+                }
+            }
         }
 
-        a i {
-            width: 16px;
-            height: 16px;
-            color: $black;
-        }
+         
 
         select {
             border: none;
@@ -56,7 +63,75 @@
 
 .botton__nav {
     background-color: $white;
-
+    .offcanvas-backdrop.show{
+        opacity: 0;
+    }
+    .offcanvas-end{
+        top: 70px;
+        border: none;
+        width: 100%;
+    }
+    .offcanvas-header{
+        justify-content: flex-end;
+    }
+    .offcanvas-body{
+        .dropdown{
+           padding-left: 40px;
+        }
+        .dropdown-menu{
+            border: none;
+            height: 100vh;
+        .dropdown-item{
+            font: normal 300 20px 'Montserrat', sans-serif !important;
+            line-height: 12px !important;
+            color: #656565 !important;
+            border: none;
+            border-bottom: 0.5px solid #CFCFCF !important;
+            margin:  0 15px !important;
+            padding: 15px 30px;
+            padding-left: 0;
+            width: 90%;
+        
+        }
+        }
+        .nav-link {
+            font: normal 300 23px 'Montserrat', sans-serif !important;
+            line-height: 30px !important;
+            color: #656565 !important;
+            border-bottom: 0.5px solid #CFCFCF !important;
+            margin:  0 0 15px 0 !important;
+            padding: 15px 30px;
+            padding-left: 0;
+            
+           
+        }
+        .nav-item{
+            margin-left: 40px;
+            &:hover{
+                .nav-link {
+                background-color: $main;
+                color: $white !important;
+                }
+              
+            }
+        }
+        .dropdown-toggle.show{
+            padding: 15px 50px;
+            border-bottom: 0.5px solid $main !important;
+        }
+        .dropdown-toggle.show::after{
+             left: 10px;
+        }
+        .dropdown-toggle::after{
+            content: none;
+            content: url('../img/leftt.png');
+            border: none;
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            
+        }
+    }
     .navbar-nav .nav-item .nav-link {
         font: normal 600 16px 'Montserrat', sans-serif;
         line-height: 50px;
@@ -73,7 +148,7 @@
         color: $main;
         border-bottom: 1px solid $main;
     }
-
+    
     .overlay {
         height: 150px;
         width: 100%;
@@ -97,6 +172,26 @@
         padding: 15px;
         font: normal 500 22px 'Montserrat', sans-serif;
         border: none;
+        background: $white;
+        line-height: 12px;
+        color: $input;
+    }
+    
+    .overlayy {
+        background: $white;
+        margin: 20px 0;
+        width: 100%;
+        padding: 5px 35px 15px 35px;
+        border-radius: 10px;
+    }
+    .overlayy form{
+        border-bottom: 1px solid $border-input;
+    }
+    .overlayy input[type=text] {
+        padding: 10px;
+        font: normal 500 16px 'Montserrat', sans-serif;
+        border: none;
+       
         background: $white;
         line-height: 12px;
         color: $input;

@@ -42,7 +42,7 @@
         .next-page {
             font: normal 500 16px 'Montserrat', sans-serif;
             line-height: 31px;
-            color: $main;
+            color: $black;
 
             img {
                 margin-left: 10px;
@@ -50,16 +50,54 @@
         }
     }
 
-    table {
-        td {
-                font: normal 500 16px 'Montserrat', sans-serif;
-                line-height: 12px;
-                color: $black;
-                padding-bottom: 25px;
-                padding-right: 80px;
-                p{
-                    display: inline;
-                }
+    .contact-text {
+        margin-left: 20px;
+        margin-bottom: 40px;
+
+        b {
+            font: normal 600 16px 'Montserrat', sans-serif;
+            line-height: 12px;
+            color: $black;
+            text-transform: uppercase;
+
+        }
+
+        p {
+            font: normal 500 16px 'Montserrat', sans-serif;
+            line-height: 12px;
+            color: $black;
+            padding-top: 20px;
+        }
+
+    }
+
+    .contact-form {
+        input {
+            background-color: transparent;
+            border: none;
+            border-bottom: 0.3px solid #B3B3B3;
+            border-radius: 0;
+
+        }
+
+        label {
+            font: normal 300 16px 'Montserrat', sans-serif;
+            line-height: 22px;
+            color: #B3B3B3;
+
+        }
+        button{
+            background: $main;
+            border-radius: 5px;
+            border: none;
+            padding: 15px 50px;
+            font: normal normal 16px "Montserrat", sans-serif;
+            line-height: 33px;
+            color: $white;
+            cursor: pointer;
+            display: block;
+            margin-left: auto;
+            margin-top: 50px;
         }
     }
 

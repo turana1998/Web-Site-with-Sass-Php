@@ -6,7 +6,7 @@
                 <a href="index.php">Ana Səhifə </a>
                 <li class="current-page"><a href="#">Lazer avadanlığı</a></li>
             </div>
-            <div class="d-flex justify-content-between  align-items-end ">
+            <div class="d-flex justify-content-between  align-items-center ">
                 <h2 class=" m-0">Lazer avadanlığı</h2>
                 <div class="items d-flex d-none d-sm-block">
                     <a class="active" href="#">Hamısı</a>
@@ -39,7 +39,7 @@
         <div id="one" class="tabcontent active">
             <div class="row">
 
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -135,7 +135,7 @@
         <div id="two" class="tabcontent">
             <div class="row">
 
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -189,7 +189,7 @@
         <div id="three" class="tabcontent">
             <div class="row">
 
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -204,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
@@ -219,7 +219,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="new_arrival_item">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">

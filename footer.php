@@ -1,3 +1,22 @@
+ <!-- Modal -->
+ <div class="modal share animate__animated animate__backInDown" id="share" tabindex="-1"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+         <div class="modal-content">
+
+             <div class="modal-body">
+                 <button class="facebook">Facebook</button>
+                 <button class="teleqram">Telegram</button>
+                 <button class="instagram">Instagram</button>
+                 <button class="whatsapp">Instagram</button>
+             </div>
+
+         </div>
+     </div>
+ </div>
+
+
+
  <!-- Footer section start -->
  <section id="footer">
      <div class="container">
@@ -5,7 +24,7 @@
              <div class="row">
                  <div class="col-12 col-md-6 col-lg-3">
                      <div class="item">
-                         <img src="./img/logo.png" />
+                         <a href="#"><img src="./img/logo.png" /></a>
                          <p>Lazer, stomotoloji və
                              kosmetoloji məhsulların
                              satışı və servisi</p>
@@ -73,7 +92,22 @@
  </script>
  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
  <script>
+     
+$(function() {
+    $('.popup-youtube').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+});
+
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -161,7 +195,7 @@ $("#new_arrival .regular").slick({
                 slidesToScroll: 1,
                 dots: true
             },
-           
+
         }
     ]
 });
@@ -195,7 +229,7 @@ $("#equipment .regular").slick({
                 slidesToScroll: 1,
                 dots: true
             },
-           
+
         }
     ]
 });
@@ -229,7 +263,7 @@ $("#_equipment .regular").slick({
                 slidesToScroll: 1,
                 dots: true
             },
-           
+
         }
     ]
 });
@@ -263,7 +297,7 @@ $("#media .regular").slick({
                 slidesToScroll: 1,
                 dots: true
             },
-           
+
         }
     ]
 });

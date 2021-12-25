@@ -184,11 +184,12 @@
     }
 
     #equipment {
-        padding-top: 70px;
+        padding-top: 0px;
 
         .title {
             padding-bottom: 0;
             margin-bottom: 20px;
+            padding-top: 60px;
 
             h2 {
                 font-size: 20px;
@@ -201,7 +202,7 @@
     }
 
     #__equipment {
-        padding-top: 70px;
+        padding-top: 0px;
 
         .title {
             padding-bottom: 20px;
@@ -229,14 +230,50 @@
                 }
             }
         }
+        .new_arrival_item {
+            
+    
+            .image {
+            
+                .heading {
+                    justify-content: end !important;
+                    h3 {
+                       display: none;
+                        &:hover{
+                            color: $main;
+                        }
+                    }
+    
+                    button {
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+                        padding: 13px 16px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+    
+            .text {
+    
+                font: normal 500 11px 'Montserrat', sans-serif;
+                line-height: 19px;
+                text-align: center;
+                color: #000000;
+                padding-top: 10px;
+            }
+    
+    
+        }
     }
 
     #_equipment {
-        padding-top: 70px;
+        padding-top: 0px;
 
         .title {
             padding-bottom: 0;
             margin-bottom: 20px;
+            padding-top: 60px;
 
             h2 {
                 font-size: 20px;
@@ -249,11 +286,12 @@
     }
 
     #media {
-        padding-top: 70px;
+        padding-top: 0px;
 
         .title {
             padding-bottom: 0;
             margin-bottom: 20px;
+            padding-top: 60px;
 
             h2 {
                 font-size: 20px;
@@ -266,11 +304,12 @@
     }
 
     #partners {
-        padding-top: 70px;
+        padding-top: 0px;
 
         .title {
             padding-bottom: 0;
             margin-bottom: 20px;
+            padding-top: 60px;
 
             h2 {
                 font-size: 20px;
@@ -298,6 +337,12 @@
         padding: 0;
     }
     #product{
+        padding-top: 0px;
+        .title {
+            a{
+                font-size: 8px;
+            }
+        }
         .detail-text {
             h2 {
                 font: normal bold 20px 'Montserrat', sans-serif;
@@ -349,7 +394,7 @@
         }
     }
     #media_ {
-        padding-top: 70px;
+        padding-top: 0px;
 
         .title {
             padding-bottom: 0;
@@ -430,12 +475,11 @@
 
     }
     #contact {
-        padding-top: 70px;
+        padding-top: 0px;
 
         .title {
             padding-bottom: 0;
             margin-bottom: 20px;
-
             h2 {
                 font-size: 20px;
             }
@@ -460,6 +504,20 @@
             td{
                 line-height: 30px;
             }
+        }
+    }
+    .delivery_ {
+        background: $white;
+        border-radius: 10px;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        p{
+            font-size: 11px !important;
+        }
+        span{
+            font-size: 12px !important;
         }
     }
 

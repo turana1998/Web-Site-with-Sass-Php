@@ -16,27 +16,30 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6">
+            <div class="col-12">
                 <div class="delivery_">
                     <img src="./img/d1.png" />
+                    <div class="">
                     <h3>Çatdırılma şərtləri</h3>
                     <p>
                         Sifarişlərin çatdırılması Azərbaycanın bütün bölgələrində həyata keçirilir.
-                        <br>
-                        <br>
+                        
+                        
                         Çatdırılma kuryer xidməti tərəfindən həyata keçirildiyi üçün, məhsulların təhlükəsizliyinə və
                         bütövlüyünə görə cavabdehlik daşıyırıq.
-                        <br>
-                        <br>
+                        
+                        
                         Kriokonteynerlərdən istifadə etmək, soyuducuda saxlama üçün nəzərdə tutulan məhsulların
                         çatdırılması zamanı, lazımi temperaturu saxlamağa imkan verir.
                     </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 ">
+            <div class="col-12 ">
                 <div class="delivery_">
-                    <img src="./img/d1.png" />
-                    <h3>Çatdırılma müddəti</h3>
+                    <img src="./img/d2.png" />
+                   <div class="">
+                   <h3>Çatdırılma müddəti</h3>
                     <table>
                         <tr>
                             <td> <p>Bazar ertəsi – Şənbə </p></td>
@@ -51,14 +54,15 @@
                     </table>
                     
                     <p>
-                        <br>
-                        <br>
+                        
+                        
                         Bakı şəhəri ərazisində çatdırılma müddəti 2-3 saat.
-                        <br>
-                        <br>
+                        
+                        
                         Azərbaycan üzrə çatdırılma şərtləri və müddəti telefon danışığı vasitəsilə, menecerlə individual
                         olaraq keçirilir.
                     </p>
+                   </div>
                 </div>
             </div>
 

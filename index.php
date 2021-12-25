@@ -12,7 +12,7 @@
                                     <p>Burada siz ən yaxşı lazer avadanlıqlarını tapa
                                         bilər və online olaraq sifariş edə bilərsiniz</p>
                                 </div>
-                                <button class="border-0 outline-0">Daha ətraflı</button>
+                                <button class="border-0 outline-0"><a hre="#">Daha ətraflı</a></button>
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                                 <h2>GentleLase Pro U - ən effektiv və sürətli lazer</h2>
                                 <p>Burada siz ən yaxşı lazer avadanlıqlarını tapa
                                     bilər və online olaraq sifariş edə bilərsiniz</p>
-                                <button class="border-0 outline-0">Daha ətraflı</button>
+                                <button class="border-0 outline-0"><a hre="#">Daha ətraflı</a></button>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                                 <h2>GentleLase Pro U - ən effektiv və sürətli lazer</h2>
                                 <p>Burada siz ən yaxşı lazer avadanlıqlarını tapa
                                     bilər və online olaraq sifariş edə bilərsiniz</p>
-                                <button class="border-0 outline-0">Daha ətraflı</button>
+                                <button class="border-0 outline-0"><a hre="#">Daha ətraflı</a></button>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                                 <h2>GentleLase Pro U - ən effektiv və sürətli lazer</h2>
                                 <p>Burada siz ən yaxşı lazer avadanlıqlarını tapa
                                     bilər və online olaraq sifariş edə bilərsiniz</p>
-                                <button class="border-0 outline-0">Daha ətraflı</button>
+                                <button class="border-0 outline-0"><a hre="#">Daha ətraflı</a></button>
                             </div>
                         </div>
                     </div>
@@ -75,84 +75,119 @@
         </div>
         <div class="container d-none d-sm-block">
             <div class="regular row">
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-between ">
-                            <h3>GentleLase Pro U</h3>
-                            <button><img src="./img/share.png" /></button>
+                <a href="#">
+                    <div class="new_arrival_item">
+                        <div class="image">
+                            <div class="heading d-flex justify-content-between ">
+                                <h3>GentleLase Pro U</h3>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#share"><img src="./img/share.png" /></button>
+                            </div>
+                            <img width="100%" height="100%" src="./img/element.png" />
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
-                    </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
-                </div>
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-between">
-                            <h3>GentleLase Pro U</h3>
-                            <button><img src="./img/share.png" /></button>
+                        <div class="text">
+                            Gentlase Pro U - alexandrit lazer <br>
+                            cihazlarında qızıl standart
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
                     </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
-                </div>
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-between">
-                            <h3>GentleLase Pro U</h3>
-                            <button><img src="./img/share.png" /></button>
+                </a>
+                <a href="#">
+                    <div class="new_arrival_item">
+                        <div class="image">
+                            <div class="heading d-flex justify-content-between ">
+                                <h3>GentleLase Pro U</h3>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#share"><img src="./img/share.png" /></button>
+                            </div>
+                            <img width="100%" height="100%" src="./img/element.png" />
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
-                    </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
-                </div>
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-between">
-                            <h3>GentleLase Pro U</h3>
-                            <button><img src="./img/share.png" /></button>
+                        <div class="text">
+                            Gentlase Pro U - alexandrit lazer <br>
+                            cihazlarında qızıl standart
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
                     </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
-                </div>
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-between ">
-                            <h3>GentleLase Pro U</h3>
-                            <button><img src="./img/share.png" /></button>
+                </a>
+                <a href="#">
+                    <div class="new_arrival_item">
+                        <div class="image">
+                            <div class="heading d-flex justify-content-between ">
+                                <h3>GentleLase Pro U</h3>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#share"><img src="./img/share.png" /></button>
+                            </div>
+                            <img width="100%" height="100%" src="./img/element.png" />
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
-                    </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
-                </div>
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-between ">
-                            <h3>GentleLase Pro U</h3>
-                            <button><img src="./img/share.png" /></button>
+                        <div class="text">
+                            Gentlase Pro U - alexandrit lazer <br>
+                            cihazlarında qızıl standart
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
                     </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
+                </a>
+                <a href="#">
+                    <div class="new_arrival_item">
+                        <div class="image">
+                            <div class="heading d-flex justify-content-between ">
+                                <h3>GentleLase Pro U</h3>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#share"><img src="./img/share.png" /></button>
+                            </div>
+                            <img width="100%" height="100%" src="./img/element.png" />
+                        </div>
+                        <div class="text">
+                            Gentlase Pro U - alexandrit lazer <br>
+                            cihazlarında qızıl standart
+                        </div>
                     </div>
-                </div>
+                </a>
+                <a href="#">
+                    <div class="new_arrival_item">
+                        <div class="image">
+                            <div class="heading d-flex justify-content-between ">
+                                <h3>GentleLase Pro U</h3>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#share"><img src="./img/share.png" /></button>
+                            </div>
+                            <img width="100%" height="100%" src="./img/element.png" />
+                        </div>
+                        <div class="text">
+                            Gentlase Pro U - alexandrit lazer <br>
+                            cihazlarında qızıl standart
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="new_arrival_item">
+                        <div class="image">
+                            <div class="heading d-flex justify-content-between ">
+                                <h3>GentleLase Pro U</h3>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#share"><img src="./img/share.png" /></button>
+                            </div>
+                            <img width="100%" height="100%" src="./img/element.png" />
+                        </div>
+                        <div class="text">
+                            Gentlase Pro U - alexandrit lazer <br>
+                            cihazlarında qızıl standart
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="new_arrival_item">
+                        <div class="image">
+                            <div class="heading d-flex justify-content-between ">
+                                <h3>GentleLase Pro U</h3>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#share"><img src="./img/share.png" /></button>
+                            </div>
+                            <img width="100%" height="100%" src="./img/element.png" />
+                        </div>
+                        <div class="text">
+                            Gentlase Pro U - alexandrit lazer <br>
+                            cihazlarında qızıl standart
+                        </div>
+                    </div>
+                </a>
+
             </div>
         </div>
         <div class="container d-block d-sm-none">
@@ -239,29 +274,32 @@
         <div class="container d-none d-sm-block">
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>Clatuu</h3>
-                                <button><img src="./img/share.png" /></button>
-                            </div>
-                            <div class="row">
-                                <div class="col-6 text-center">
-                                    <img height="100%" src="./img/elmt2.png" />
+                    <a href="#">
+                        <div class="new_arrival_item">
+                            <div class="image">
+                                <div class="heading d-flex justify-content-between ">
+                                    <h3>Clatuu</h3>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#share"><img src="./img/share.png" /></button>
                                 </div>
-                                <div class="col-6 text-center">
-                                    <div class="">
-                                        <img height="100%" src="./img/elmt1.png" />
-                                        <img height="100%" src="./img/elmt3.png" />
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <img height="100%" src="./img/elmt2.png" />
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <div class="">
+                                            <img height="100%" src="./img/elmt1.png" />
+                                            <img height="100%" src="./img/elmt3.png" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="text">
+                                Gentlase Pro U - alexandrit lazer <br>
+                                cihazlarında qızıl standart
+                            </div>
                         </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-12 col-lg-3">
                     <div class="new_arrival_item">
@@ -846,28 +884,28 @@
         </div>
         <div class="container d-block d-sm-none">
             <div class="regular row">
-                    <div class="news">
-                        <img width="100%" height="100%" src="./img/news.png" />
-                        <div class="text_">
-                            <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
-                            <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
-                            <div class="d-flex justify-content-between ">
-                                <div class="time">12.09.21</div>
-                                <a href="#"><img src="./img/nextpage.png" /></a>
-                            </div>
+                <div class="news">
+                    <img width="100%" height="100%" src="./img/news.png" />
+                    <div class="text_">
+                        <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                        <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                        <div class="d-flex justify-content-between ">
+                            <div class="time">12.09.21</div>
+                            <a href="#"><img src="./img/nextpage.png" /></a>
                         </div>
                     </div>
-                    <div class="news">
-                        <img width="100%" height="100%" src="./img/news.png" />
-                        <div class="text_">
-                            <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
-                            <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
-                            <div class="d-flex justify-content-between ">
-                                <div class="time">12.09.21</div>
-                                <a href="#"><img src="./img/nextpage.png" /></a>
-                            </div>
+                </div>
+                <div class="news">
+                    <img width="100%" height="100%" src="./img/news.png" />
+                    <div class="text_">
+                        <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                        <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                        <div class="d-flex justify-content-between ">
+                            <div class="time">12.09.21</div>
+                            <a href="#"><img src="./img/nextpage.png" /></a>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
     </section>
