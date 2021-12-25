@@ -128,7 +128,9 @@
             }
         }
     }
-
+    #delivery{
+        padding-top: 0 !important;
+    }
     #new_arrival {
         padding-top: 60px;
 
@@ -219,6 +221,10 @@
             }
 
             .filter {
+                button{
+                    background-color: transparent;
+                    border: none;
+                }
                 a {
                     font: normal 500 12px "Montserrat", sans-serif;
                     line-height: 12px;

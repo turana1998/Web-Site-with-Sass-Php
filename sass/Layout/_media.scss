@@ -101,6 +101,41 @@
         margin-top: 40px;
 
     }
+    .news_detail {
+        border-radius: 10px;
+        width: 70%;
+        float: right;
+        margin-bottom: 25px;
+        .text_ {
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px 20px 15px 25px;
+
+           
+            h4 {
+                font: normal 600 12px 'Montserrat', sans-serif;
+                color: $black;
+                line-height: 15px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font: normal 300 10px 'Montserrat', sans-serif;
+                line-height: 17px;
+                color: $black;
+                margin-bottom: 10px;
+                margin-top: 0px;
+            }
+
+            .time {
+                font: normal normal 10px 'Montserrat', sans-serif;
+                line-height: 24px;
+                color: $ligt_grey;
+            }
+        }
+
+
+    }
 }
 #media {
     padding-top: 130px;
@@ -179,4 +214,5 @@
 
 
     }
+    
 }

@@ -14,8 +14,22 @@
                     <a href="#">Populyar məhsullar</a>
                 </div>
                 <div class="filter d-flex d-bloc d-sm-none">
-                    <a  href="#">Filterlə<img src="./img/filter.png"/></a>
-                   
+                  
+                    <div class="dropdown">
+                        <button  type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="#">Filterlə<img src="./img/filter.png" /></a>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <button  type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                           X
+                        </button>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -23,8 +37,7 @@
     </div>
     <div class="container ">
         <div class="tab d-flex d-none d-sm-block">
-            <button class="tablinks active" onclick="openCity(event, 'one')"><a href="#"
-                   >Candela</a></button>
+            <button class="tablinks active" onclick="openCity(event, 'one')"><a href="#">Candela</a></button>
             <button class="tablinks" onclick="openCity(event, 'two')"><a href="#">Lutronic</a></button>
             <button class="tablinks" onclick="openCity(event, 'three')"><a href="#">Zimmer</a></button>
             <button class="tablinks" onclick="openCity(event, 'three')"><a href="#">Zimmer</a></button>

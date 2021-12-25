@@ -76,7 +76,10 @@
     }
     .offcanvas-body{
         .dropdown{
-           padding-left: 40px;
+            .nav-link{
+                padding-left: 40px;
+            }
+           
         }
         .dropdown-menu{
             border: none;
@@ -106,10 +109,15 @@
            
         }
         .nav-item{
-            margin-left: 40px;
+            .nav-link{
+                padding-left: 40px;
+            }
+            &:hover{
+                background-color: $main;
+            }
             &:hover{
                 .nav-link {
-                background-color: $main;
+               
                 color: $white !important;
                 }
               
@@ -117,6 +125,7 @@
         }
         .dropdown-toggle.show{
             padding: 15px 50px;
+            color: $main !important;
             border-bottom: 0.5px solid $main !important;
         }
         .dropdown-toggle.show::after{
