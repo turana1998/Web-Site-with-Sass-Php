@@ -1140,6 +1140,7 @@
 
 #about .about_img {
   padding-bottom: 100px;
+  width: 100%;
 }
 
 #about h4 {
@@ -1935,6 +1936,29 @@ input:focus {
   }
   #footer {
     padding: 0;
+  }
+  #about {
+    padding-top: 0px;
+  }
+  #about .title {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+  #about .title h2 {
+    font-size: 20px;
+  }
+  #about .title .next-page {
+    font-size: 10px;
+  }
+  #about .menu-link {
+    margin-bottom: 0 !important;
+  }
+  #about img {
+    padding: 10px 0 !important;
+  }
+  #about p {
+    font-size: 12px !important;
+    line-height: 16px !important;
   }
   #product {
     padding-top: 0px;

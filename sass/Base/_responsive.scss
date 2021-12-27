@@ -397,6 +397,34 @@
     #footer {
         padding: 0;
     }
+    #about{
+        padding-top: 0px;
+        .title {
+            padding-bottom: 0;
+            margin-bottom: 20px;
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .next-page {
+                font-size: 10px;
+            }
+        }
+        
+
+        .menu-link {
+            margin-bottom: 0 !important;
+        }
+        img{
+            padding: 10px 0 !important;
+        }
+        p{
+            font-size: 12px !important;
+            line-height: 16px !important;
+        }
+
+    }
 
     #product {
         padding-top: 0px;
