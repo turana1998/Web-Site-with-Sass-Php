@@ -1652,6 +1652,10 @@ input:focus {
   .navbar select ::-ms-expand {
     display: none;
   }
+  .share.show button {
+    padding: 15px 5px !important;
+    font: normal normal 13px "Montserrat", sans-serif !important;
+  }
   #header .header-item {
     background-repeat: no-repeat;
     height: 450px;
