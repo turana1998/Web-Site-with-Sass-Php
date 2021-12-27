@@ -75,6 +75,9 @@
         justify-content: flex-end;
     }
     .offcanvas-body{
+        li{
+            border-bottom: 0.5px solid #CFCFCF !important;
+        }
         .dropdown{
             .nav-link{
                 padding-left: 40px;
@@ -89,7 +92,7 @@
             line-height: 12px !important;
             color: #656565 !important;
             border: none;
-            border-bottom: 0.5px solid #CFCFCF !important;
+            
             margin:  0 15px !important;
             padding: 15px 30px;
             padding-left: 0;
@@ -101,12 +104,14 @@
             font: normal 300 23px 'Montserrat', sans-serif !important;
             line-height: 30px !important;
             color: #656565 !important;
-            border-bottom: 0.5px solid #CFCFCF !important;
+         
             margin:  0 0 15px 0 !important;
             padding: 15px 30px;
             padding-left: 0;
             
-           
+           &:hover{
+               border: none !important;
+           }
         }
         .nav-item{
             .nav-link{

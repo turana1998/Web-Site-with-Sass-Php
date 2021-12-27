@@ -210,13 +210,13 @@
                     <div class="offcanvas-body p-0">
                         <ul class="navbar-nav m-auto">
                             <li class="dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                <a class="nav-link dropdown-toggle" href="equipment.php" id="offcanvasNavbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Məhsullar
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="equipment.php">Məhsullar</a></li>
+                                    <li><a class="dropdown-item" href="equipment.php">Məhsullar</a></li>
                                     
                                 </ul>
                             </li>

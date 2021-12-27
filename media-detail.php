@@ -39,7 +39,7 @@
 
                 <div class="news_detail d-flex">
 
-                    <img width="200px" height="150px" src="./img/news.png" />
+                    <img width="200px" height="" src="./img/news.png" />
 
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="news_detail d-flex">
 
-                    <img width="200px" height="150px" src="./img/news.png" />
+                    <img width="200px" height="" src="./img/news.png" />
 
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="news_detail d-flex">
 
-                    <img width="200px" height="150px" src="./img/news.png" />
+                    <img width="200px" height="" src="./img/news.png" />
 
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>

@@ -14,20 +14,25 @@
                     <a href="#">Populyar məhsullar</a>
                 </div>
                 <div class="filter d-flex d-bloc d-sm-none">
-                  
+
                     <div class="dropdown">
-                        <button  type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             <a href="#">Filterlə<img src="./img/filter.png" /></a>
                         </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <button  type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                           X
-                        </button>
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2" data-popper-placement="bottom-end">
+                            <button type="button" id="btnFilter"><img src="./img/cancel.png" /></a></button>
+                            <li><a class="dropdown-item" href="#">Candela</a></li>
+                            <li><a class="dropdown-item" href="#">Lutronic</a></li>
+                            <li><a class="dropdown-item" href="#">Zimmer</a></li>
+                            <li><a class="dropdown-item" href="#">Nora Bode</a></li>
+                            <li><a class="dropdown-item" href="#">Candela</a></li>
+                            <li><a class="dropdown-item" href="#">Lutronic</a></li>
+                            <li><a class="dropdown-item" href="#">Zimmer</a></li>
+                            <li><a class="dropdown-item" href="#">Applisonix</a></li>
+                            <li><a class="dropdown-item" href="#">Lutronic</a></li>
+                            <li><a class="dropdown-item" href="#">Zimmer</a></li>
+
                         </ul>
                     </div>
                 </div>

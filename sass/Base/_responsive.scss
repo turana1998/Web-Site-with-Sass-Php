@@ -128,9 +128,36 @@
             }
         }
     }
-    #delivery{
+
+    #delivery {
+        .menu-link {
+            margin-bottom: 0 !important;
+        }
+        .title {
+            padding: 0;
+            margin-bottom: 20px;
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+        .delivery_{
+            padding: 20px 10px !important;
+            text-align: center;
+            img{
+                margin: auto;
+            }
+            h3{
+                font-size: 14px !important;
+            }
+            p{
+                font-size: 12px !important;
+                line-height: 16px !important;
+            }
+        }
         padding-top: 0 !important;
     }
+
     #new_arrival {
         padding-top: 60px;
 
@@ -221,35 +248,59 @@
             }
 
             .filter {
-                button{
+                .dropdown-toggle {
+                    &::after {
+                        content: none;
+                    }
+                }
+
+                ul {
+                    padding: 20px 40px;
+                    width: 200px;
+                    top: 10px !important;
+                    right: 20px !important;
+
+                }
+
+                button {
                     background-color: transparent;
                     border: none;
+                    display: block;
+                    float: right;
+
                 }
+
                 a {
-                    font: normal 500 12px "Montserrat", sans-serif;
-                    line-height: 12px;
+                    font: normal 600 14px "Montserrat", sans-serif;
+                    letter-spacing: 0.02em;
                     color: $black;
-                    
+                    border-bottom: 0.5px solid #EEEEEE;
+                    padding: 10px 0;
+
                 }
-                img{
+
+                img {
                     padding-left: 10px;
                 }
             }
         }
+
         .new_arrival_item {
-            
-    
+
+
             .image {
-            
+
                 .heading {
                     justify-content: end !important;
+
                     h3 {
-                       display: none;
-                        &:hover{
+                        display: none;
+
+                        &:hover {
                             color: $main;
                         }
                     }
-    
+
                     button {
                         background-color: transparent;
                         border: none;
@@ -259,17 +310,17 @@
                     }
                 }
             }
-    
+
             .text {
-    
+
                 font: normal 500 11px 'Montserrat', sans-serif;
                 line-height: 19px;
                 text-align: center;
                 color: #000000;
                 padding-top: 10px;
             }
-    
-    
+
+
         }
     }
 
@@ -342,44 +393,57 @@
     #footer {
         padding: 0;
     }
-    #product{
+
+    #product {
         padding-top: 0px;
+
         .title {
-            a{
+            margin-bottom: 15px !important;
+
+            a {
                 font-size: 8px;
             }
         }
+
+        .menu-link {
+            margin-bottom: 0 !important;
+        }
+
         .detail-text {
             h2 {
                 font: normal bold 20px 'Montserrat', sans-serif;
                 line-height: 24px;
                 letter-spacing: 0.02em;
                 color: #222222;
-                text-align: center;
+                text-align: start;
             }
-    
+
             p {
                 font: normal normal 11px 'Montserrat', sans-serif;
                 line-height: 23px;
                 color: #000000;
                 margin-bottom: 20px;
-                text-align: center;
+                text-align: start;
             }
         }
+
         .tab {
             .tablinks {
+                padding: 15px 0 !important;
+
                 a {
                     font: normal 500 14px 'Montserrat', sans-serif;
                     letter-spacing: 0.02em;
                     margin-right: 30px;
                     line-height: 23px;
                     color: #414141;
-    
+
                 }
 
             }
-    
+
         }
+
         table {
             tr {
                 td {
@@ -387,19 +451,39 @@
                     line-height: 23px;
                     color: $black;
                     text-align: end;
+
                     &:first-child {
                         font: normal 500 12px 'Montserrat', sans-serif;
                         line-height: 23px;
                         color: $black;
                         text-align: start;
                     }
-    
+
                 }
             }
-    
+
         }
     }
+
     #media_ {
+        .menu-link {
+            margin-bottom: 0 !important;
+        }
+
+        .news_detail {
+            width: 100% !important;
+
+            img {
+                width: 150px !important;
+                object-fit: cover;
+            }
+            .text_{
+                img{
+                    width: 30px !important;
+                }
+            }
+        }
+
         padding-top: 0px;
 
         .title {
@@ -426,66 +510,102 @@
                 margin: auto;
             }
         }
+
         .news {
             border-radius: 10px;
             position: relative;
             margin-bottom: 30px;
+            height: 200px;
+
+            img {
+                object-fit: cover;
+            }
+
             .text_ {
                 border-radius: 2px;
                 position: absolute;
                 bottom: 0;
                 background: rgba(255, 255, 255, 0.95);
                 padding: 5px;
-    
+
                 h4 {
                     font: normal 600 11px 'Montserrat', sans-serif;
                     color: $black;
                     margin-bottom: 5px;
                 }
-    
+
                 p {
                     font: normal 300 9px 'Montserrat', sans-serif;
                     line-height: 10px;
                     color: $black;
                     margin: 0;
-                   
+
                 }
-    
+
                 .time {
                     font: normal normal 8px 'Montserrat', sans-serif;
                     line-height: 14px;
                     color: $ligt_grey;
                 }
             }
-    
-    
+
+
         }
+
         h3 {
             font: normal 600 14px 'Montserrat', sans-serif;
             line-height: 34px;
-             color: $black;
+            color: $black;
         }
-        span{
+
+        span {
             font: normal normal 10px 'Montserrat', sans-serif;
             line-height: 29px;
             color: #3F3F3F;
         }
-        p{
+
+        p {
             font: normal normal 12px 'Montserrat', sans-serif;
             line-height: 29px;
             color: $black;
             margin-top: 40px;
-    
+
         }
 
 
     }
+
     #contact {
         padding-top: 0px;
-
+         .menu-link {
+            margin-bottom: 0px;
+        }
+        i{
+            display: none;
+        }
+        .contact-form {
+            label{
+               font-size: 13px !important; 
+            }
+            button{
+                margin-left: unset !important;
+            }
+            
+        }
+        .contact-text{
+            margin:0 0 20px 0 !important;
+            
+            b,p{
+                font-size: 12px !important;
+            }
+            p{
+                padding-top: 5px !important;
+            }
+        }
         .title {
             padding-bottom: 0;
             margin-bottom: 20px;
+
             h2 {
                 font-size: 20px;
             }
@@ -506,23 +626,39 @@
                 margin: auto;
             }
         }
+
         table {
-            td{
+            td {
                 line-height: 30px;
             }
         }
     }
+
     .delivery_ {
+        .menu-link {
+            margin-bottom: 0 !important;
+        }
+        .title {
+            padding: 0;
+            margin-bottom: 20px;
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+
         background: $white;
         border-radius: 10px;
         padding: 50px;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        p{
+
+        p {
             font-size: 11px !important;
         }
-        span{
+
+        span {
             font-size: 12px !important;
         }
     }

@@ -84,6 +84,10 @@
           justify-content: flex-end;
 }
 
+.botton__nav .offcanvas-body li {
+  border-bottom: 0.5px solid #CFCFCF !important;
+}
+
 .botton__nav .offcanvas-body .dropdown .nav-link {
   padding-left: 40px;
 }
@@ -98,7 +102,6 @@
   line-height: 12px !important;
   color: #656565 !important;
   border: none;
-  border-bottom: 0.5px solid #CFCFCF !important;
   margin: 0 15px !important;
   padding: 15px 30px;
   padding-left: 0;
@@ -109,10 +112,13 @@
   font: normal 300 23px 'Montserrat', sans-serif !important;
   line-height: 30px !important;
   color: #656565 !important;
-  border-bottom: 0.5px solid #CFCFCF !important;
   margin: 0 0 15px 0 !important;
   padding: 15px 30px;
   padding-left: 0;
+}
+
+.botton__nav .offcanvas-body .nav-link:hover {
+  border: none !important;
 }
 
 .botton__nav .offcanvas-body .nav-item .nav-link {
@@ -934,7 +940,7 @@
 
 #media_ .news_detail {
   border-radius: 10px;
-  width: 70%;
+  width: 80%;
   float: right;
   margin-bottom: 25px;
 }
@@ -1725,6 +1731,30 @@ input:focus {
   #delivery {
     padding-top: 0 !important;
   }
+  #delivery .menu-link {
+    margin-bottom: 0 !important;
+  }
+  #delivery .title {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  #delivery .title h2 {
+    font-size: 20px;
+  }
+  #delivery .delivery_ {
+    padding: 20px 10px !important;
+    text-align: center;
+  }
+  #delivery .delivery_ img {
+    margin: auto;
+  }
+  #delivery .delivery_ h3 {
+    font-size: 14px !important;
+  }
+  #delivery .delivery_ p {
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
   #new_arrival {
     padding-top: 60px;
   }
@@ -1793,14 +1823,27 @@ input:focus {
   #__equipment .title .next-page {
     font-size: 10px;
   }
+  #__equipment .title .filter .dropdown-toggle::after {
+    content: none;
+  }
+  #__equipment .title .filter ul {
+    padding: 20px 40px;
+    width: 200px;
+    top: 10px !important;
+    right: 20px !important;
+  }
   #__equipment .title .filter button {
     background-color: transparent;
     border: none;
+    display: block;
+    float: right;
   }
   #__equipment .title .filter a {
-    font: normal 500 12px "Montserrat", sans-serif;
-    line-height: 12px;
+    font: normal 600 14px "Montserrat", sans-serif;
+    letter-spacing: 0.02em;
     color: #000000;
+    border-bottom: 0.5px solid #EEEEEE;
+    padding: 10px 0;
   }
   #__equipment .title .filter img {
     padding-left: 10px;
@@ -1892,22 +1935,31 @@ input:focus {
   #product {
     padding-top: 0px;
   }
+  #product .title {
+    margin-bottom: 15px !important;
+  }
   #product .title a {
     font-size: 8px;
+  }
+  #product .menu-link {
+    margin-bottom: 0 !important;
   }
   #product .detail-text h2 {
     font: normal bold 20px 'Montserrat', sans-serif;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #222222;
-    text-align: center;
+    text-align: start;
   }
   #product .detail-text p {
     font: normal normal 11px 'Montserrat', sans-serif;
     line-height: 23px;
     color: #000000;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: start;
+  }
+  #product .tab .tablinks {
+    padding: 15px 0 !important;
   }
   #product .tab .tablinks a {
     font: normal 500 14px 'Montserrat', sans-serif;
@@ -1930,6 +1982,20 @@ input:focus {
   }
   #media_ {
     padding-top: 0px;
+  }
+  #media_ .menu-link {
+    margin-bottom: 0 !important;
+  }
+  #media_ .news_detail {
+    width: 100% !important;
+  }
+  #media_ .news_detail img {
+    width: 150px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #media_ .news_detail .text_ img {
+    width: 30px !important;
   }
   #media_ .title {
     padding-bottom: 0;
@@ -1959,6 +2025,11 @@ input:focus {
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;
+    height: 200px;
+  }
+  #media_ .news img {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   #media_ .news .text_ {
     border-radius: 2px;
@@ -2002,6 +2073,27 @@ input:focus {
   #contact {
     padding-top: 0px;
   }
+  #contact .menu-link {
+    margin-bottom: 0px;
+  }
+  #contact i {
+    display: none;
+  }
+  #contact .contact-form label {
+    font-size: 13px !important;
+  }
+  #contact .contact-form button {
+    margin-left: unset !important;
+  }
+  #contact .contact-text {
+    margin: 0 0 20px 0 !important;
+  }
+  #contact .contact-text b, #contact .contact-text p {
+    font-size: 12px !important;
+  }
+  #contact .contact-text p {
+    padding-top: 5px !important;
+  }
   #contact .title {
     padding-bottom: 0;
     margin-bottom: 20px;
@@ -2043,6 +2135,16 @@ input:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .delivery_ .menu-link {
+    margin-bottom: 0 !important;
+  }
+  .delivery_ .title {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .delivery_ .title h2 {
+    font-size: 20px;
   }
   .delivery_ p {
     font-size: 11px !important;
