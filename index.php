@@ -195,7 +195,8 @@
                 <div class="new_arrival_item">
                     <div class="image">
                         <div class="heading d-flex justify-content-end ">
-                            <button><img src="./img/share.png" /></button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#share"><img src="./img/share.png" /></button>
                         </div>
                         <img width="100%" height="100%" src="./img/element.png" />
                     </div>
