@@ -135,7 +135,7 @@
                                 </div> <!-- dropdown-mega-menu.// -->
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="#">Servis</a>
+                                <a class="nav-link " aria-current="page" href="service.php">Servis</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="delivery.php">Çatdırılma</a>
@@ -221,7 +221,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="#">Servis</a>
+                                <a class="nav-link " aria-current="page" href="service.php">Servis</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="delivery.php">Çatdırılma</a>
