@@ -47,21 +47,22 @@
   color: #328BE7;
 }
 
-.top__nav .sosial__media select {
+.top__nav .sosial__media .dropdown-toggle::after {
+  content: none;
+}
+
+.top__nav .sosial__media .language button {
   border: none;
   outline: none;
+  background-color: transparent;
   -moz-appearance: none;
   -webkit-appearance: none;
-  font: normal 500 12px 'Montserrat', sans-serif;
+  font: normal 600 12px 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 12px;
   letter-spacing: 0.06em;
   color: #000000;
   margin-left: 10px;
-}
-
-.top__nav .sosial__media select ::-ms-expand {
-  display: none;
 }
 
 .botton__nav {
@@ -171,7 +172,7 @@
 }
 
 .botton__nav .overlay {
-  height: 150px;
+  height: 140px;
   width: 100%;
   display: none;
   position: fixed;
@@ -179,6 +180,7 @@
   top: 0;
   left: 0;
   background-color: #FFFFFF;
+  padding-top: 40px;
 }
 
 .botton__nav .overlay form {
@@ -334,7 +336,7 @@
   }
   #header .slick-dots .slick-active button:before {
     color: #328BE7;
-    padding: 3px 5px;
+    padding: 5px;
   }
   #header .slick-dots .slick-active {
     border: 1px solid #328BE7;
@@ -440,7 +442,7 @@
   right: 0;
   width: auto;
   background: #328BE7;
-  padding: 13px;
+  height: 44px;
   border-radius: 50%;
   border: none;
   outline: none;
@@ -457,7 +459,7 @@
   right: 5%;
   width: auto;
   background: #FFFFFF;
-  padding: 13px;
+  height: 44px;
   border-radius: 50%;
   border: 1px solid #DBDBDB;
   outline: none;
@@ -1383,7 +1385,7 @@
 #product .regular .next {
   position: absolute;
   top: 50%;
-  left: 0;
+  right: 0;
   width: auto;
   z-index: 99;
   padding: 13px;
@@ -1400,7 +1402,7 @@
 #product .regular .prev {
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 0;
   width: auto;
   z-index: 99;
   padding: 13px;
@@ -1517,8 +1519,23 @@
   margin: auto;
 }
 
+#product .slick-dots li {
+  width: 15px;
+  height: 15px;
+}
+
+#product .slick-dots li button {
+  width: 15px;
+  height: 15px;
+}
+
+#product .slick-dots li button::before {
+  width: 15px;
+  height: 15px;
+}
+
 #product .slick-dots .slick-active button:before {
-  color: #FFFFFF;
+  color: transparent;
   padding: 0;
 }
 
@@ -1529,7 +1546,7 @@
 }
 
 #product .slick-dots li {
-  margin: 0 0 45px 0;
+  margin: 0 10px 45px 0;
 }
 
 #product .slick-dots li button:before {

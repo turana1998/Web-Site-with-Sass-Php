@@ -39,24 +39,25 @@
                 }
             }
         }
-
-         
-
-        select {
+        .dropdown-toggle{
+            &::after{
+                content: none;
+            }
+        }
+        .language  button{
             border: none;
             outline: none;
+            background-color: transparent;
             -moz-appearance: none;
             -webkit-appearance: none;
-            font: normal 500 12px 'Montserrat', sans-serif;
+            font: normal 600 12px 'Montserrat', sans-serif;
             font-size: 14px;
             line-height: 12px;
             letter-spacing: 0.06em;
             color: $black;
             margin-left: 10px;
 
-            ::-ms-expand {
-                display: none;
-            }
+            
         }
     }
 }
@@ -164,7 +165,7 @@
     }
     
     .overlay {
-        height: 150px;
+        height: 140px;
         width: 100%;
         display: none;
         position: fixed;
@@ -172,6 +173,7 @@
         top: 0;
         left: 0;
         background-color: $white;
+        padding-top: 40px;
 
         form {
             border-bottom: 1px solid $border-input;

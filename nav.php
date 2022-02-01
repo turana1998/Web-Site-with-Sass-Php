@@ -37,14 +37,21 @@
                         </li>
                     </ul>
                 </div>
-                <div class="sosial__media">
+                <div class="sosial__media d-flex">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
-                    <select>
-                        <option>EN</option>
-                        <option>AZ</option>
-                    </select>
+                    <div class="dropdown language">
+                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            AZ
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">AZ</a></li>
+                            <li><a class="dropdown-item" href="#">RU</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -52,7 +59,7 @@
     <!-- Navbar section end desktop -->
     <section id="bottom_navbar" class="d-none d-sm-block">
         <div class="botton__nav">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
                 <div class="container">
                     <a class="navbar-brand" href="index.php">
                         <img src="./img/logo.png" />
@@ -154,7 +161,7 @@
                         <button type="button" class="openBtn border-0 outline-0 bg-transparent" onclick="openSearch()">
                             <img src="./img/search.png" />
                         </button>
-                        <div id="myOverlay" class="overlay pt-5 animate__animated animate__backInLeft">
+                        <div id="myOverlay" class="overlay  animate__animated animate__backInLeft">
                             <div class="container">
                                 <div class="closebtn" onclick="closeSearch()" title="Close Overlay">
                                     <img src="./img/cancel.png" />
@@ -210,14 +217,14 @@
                     <div class="offcanvas-body p-0">
                         <ul class="navbar-nav m-auto">
                             <li class="dropdown">
-                                <a class="nav-link dropdown-toggle" href="equipment.php" id="offcanvasNavbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="equipment.php" id="offcanvasNavbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Məhsullar
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                                     <li><a class="dropdown-item" href="equipment.php">Məhsullar</a></li>
                                     <li><a class="dropdown-item" href="equipment.php">Məhsullar</a></li>
-                                    
+
                                 </ul>
                             </li>
                             <li class="nav-item">

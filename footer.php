@@ -162,8 +162,8 @@ $(".detail .regular").slick({
     dots: true,
     infinite: true,
     speed: 500,
-    prevArrow: '<button class="prev"><img src="./img/leftt.png"/></button>',
-    nextArrow: '<button class="next"><img src="./img/right.png"/></button>',
+    prevArrow: '<button class="prev"><img src="./img/right.png"/></button>',
+    nextArrow: '<button class="next"><img src="./img/leftt.png"/></button>',
     fade: true,
     cssEase: "linear",
 });

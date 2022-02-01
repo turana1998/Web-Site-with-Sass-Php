@@ -39,7 +39,7 @@
     .regular .next {
         position: absolute;
         top: 50%;
-        left: 0;
+        right: 0;
         width: auto;
         z-index: 99;
         padding: 13px;
@@ -56,7 +56,7 @@
     .regular .prev {
         position: absolute;
         top: 50%;
-        right: 0;
+        left: 0;
         width: auto;
         z-index: 99;
         padding: 13px;
@@ -77,25 +77,29 @@
 
     .detail-item {
         padding: 15px;
+
         img {
             height: 400px;
             object-fit: contain;
         }
+
         .video {
             display: block;
             margin-left: auto;
             border: none;
             background-color: $bg-btn;
             border-radius: 50%;
-            padding:  12px 15px;
+            padding: 12px 15px;
             transition: 1s;
-            &:hover{
+
+            &:hover {
                 background: $btn-hover;
-                i{
+
+                i {
                     color: $white;
                 }
             }
-           
+
         }
     }
 
@@ -164,6 +168,7 @@
                 line-height: 23px;
                 color: $black;
                 text-align: end;
+
                 &:first-child {
                     font: normal 500 16px 'Montserrat', sans-serif;
                     line-height: 23px;
@@ -175,14 +180,29 @@
         }
 
     }
+
     .slick-dots {
         bottom: -20%;
         left: 0;
         right: 0;
         margin: auto;
 
+        li {
+            width: 15px;
+            height: 15px;
+
+            button {
+                width: 15px;
+                height: 15px;
+                &::before{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+
         .slick-active button:before {
-            color: $white;
+            color: transparent;
             padding: 0;
         }
 
@@ -193,8 +213,8 @@
         }
 
         li {
-        
-            margin: 0 0 45px 0;
+
+            margin: 0 10px 45px 0;
 
             button:before {
                 font-size: 10px;
