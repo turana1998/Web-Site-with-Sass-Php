@@ -36,39 +36,7 @@
 
     }
 
-    .regular .next {
-        position: absolute;
-        top: 50%;
-        right: 0;
-        width: auto;
-        z-index: 99;
-        padding: 13px;
-        background-color: transparent;
-        border: none;
-        outline: none;
 
-        img {
-            width: 20px;
-            height: 20px;
-        }
-    }
-
-    .regular .prev {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        width: auto;
-        z-index: 99;
-        padding: 13px;
-        border: none;
-        outline: none;
-        background-color: transparent;
-
-        img {
-            width: 20px;
-            height: 20px;
-        }
-    }
 
     .detail {
         background-color: $white;
@@ -116,6 +84,39 @@
             line-height: 23px;
             color: #000000;
             margin-bottom: 50px;
+        }
+        .regular .next {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            width: auto;
+            z-index: 99;
+            padding: 13px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .regular .prev {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: auto;
+            z-index: 99;
+            padding: 13px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
         }
     }
 
@@ -215,6 +216,7 @@
         li {
 
             margin: 0 10px 45px 0;
+            padding-top: 2px;
 
             button:before {
                 font-size: 10px;
@@ -223,4 +225,87 @@
             }
         }
     }
+    .others{
+        .regular .next {
+            position: absolute;
+            top: 50%;
+            right: -25px;
+            width: auto;
+            z-index: 99;
+            padding: 13px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .regular .prev {
+            position: absolute;
+            top: 50%;
+            left: -45px;
+            width: auto;
+            z-index: 99;
+            padding: 13px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        padding: 80px 0 120px 0;
+        .new_arrival_item {
+            background-color: $white;
+            padding: 15px 15px 10px 15px;
+            border-radius: 10px;
+            width: 90% !important;
+
+            .image {
+                border-bottom: 1px solid $grid-border;
+                position: relative;
+
+                .heading {
+                    position: absolute;
+                    width: 100%;
+                    background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
+                    h3 {
+                        font: normal bold 16px 'Montserrat', sans-serif;
+                        line-height: 33px;
+                        text-align: center;
+                        color: $black;
+                        &:hover{
+                            color: $main;
+                        }
+                    }
+
+                    button {
+                        background-color: $bg-btn;
+                        border: none;
+                        outline: none;
+                        padding: 13px;
+                        border-radius: 50%;
+
+                    }
+                }
+            }
+
+            .text {
+
+                font: normal 500 13px 'Montserrat', sans-serif;
+                line-height: 19px;
+                text-align: center;
+                color: #000000;
+                padding-top: 10px;
+            }
+
+
+        }
+    }
+
 }

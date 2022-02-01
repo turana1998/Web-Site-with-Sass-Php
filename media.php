@@ -108,6 +108,11 @@
                 </div>
             </div>
         </div>
+        <div class="text-end mt-5  mb-5">
+            <a href="#" class="next-page">
+                Daha çox
+            </a>
+        </div>
     </div>
 </section>
 <!-- Media section end -->

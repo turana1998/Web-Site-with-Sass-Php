@@ -4,10 +4,10 @@
         <div class="container">
             <div class="menu-link d-flex align-items-center">
                 <a href="index.php">Ana Səhifə </a>
-                <li class="current-page"><a href="#">Lazer avadanlığı</a></li>
+                <li class="current-page"><a href="#">Lazer və kosmetoloji avadanlıq</a></li>
             </div>
             <div class="d-flex justify-content-between  align-items-center ">
-                <h2 class=" m-0">Lazer avadanlığı</h2>
+                <h2 class=" m-0">Lazer və kosmetoloji avadanlıq</h2>
                 <div class="items d-flex d-none d-sm-block">
                     <a class="active" href="#">Hamısı</a>
                     <a href="#">Yenilər</a>

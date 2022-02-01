@@ -93,20 +93,24 @@
                                             <div class="col-12 col-md-6 col-lg-3">
                                                 <div class="item">
                                                     <a href="equipment.php">
-                                                        <h5>Lazer avadanlığı</h5>
+                                                        <h5>Lazer və kosmetoloji avadanlıq</h5>
                                                     </a>
-                                                    <ul>
-                                                        <li><a href="#">Candela</a></li>
-                                                        <li><a href="#">Lutronic</a></li>
-                                                        <li><a href="#">Zimmer</a></li>
-                                                        <li><a href="#">Nora Bode</a></li>
-                                                        <li><a href="#">Candela</a></li>
-                                                        <li><a href="#">Lutronic</a></li>
-                                                        <li><a href="#">Zimmer</a></li>
-                                                        <li><a href="#">Applisonix</a></li>
-                                                        <li><a href="#">Lutronic</a></li>
-                                                        <li><a href="#">Zimmer</a></li>
-                                                    </ul>
+                                                    <div class="d-flex">
+                                                        <ul class="me-5">
+                                                            <li><a href="equipment-detail.php">Ajax Medical</a></li>
+                                                            <li><a href="#">Meta-Biomed</a></li>
+                                                            <li><a href="#">Anthogyr</a></li>
+                                                            <li><a href="#">Digimed</a></li>
+                                                            <li><a href="#">Digimed</a></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><a href="equipment-detail.php">Ajax Medical</a></li>
+                                                            <li><a href="#">Meta-Biomed</a></li>
+                                                            <li><a href="#">Anthogyr</a></li>
+                                                            <li><a href="#">Digimed</a></li>
+                                                            <li><a href="#">Digimed</a></li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-3">
@@ -144,9 +148,9 @@
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="service.php">Servis</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="delivery.php">Çatdırılma</a>
-                            </li>
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-link" href="delivery.php">Çatdırılma</a>-->
+<!--                            </li>-->
 
                             <li class="nav-item">
                                 <a class="nav-link" href="about.php">Haqqımızda</a>
@@ -230,9 +234,9 @@
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="service.php">Servis</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="delivery.php">Çatdırılma</a>
-                            </li>
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-link" href="delivery.php">Çatdırılma</a>-->
+<!--                            </li>-->
 
                             <li class="nav-item">
                                 <a class="nav-link" href="about.php">Haqqımızda</a>

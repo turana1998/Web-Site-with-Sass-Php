@@ -34,14 +34,15 @@
             color: $main;
         }
 
-        .next-page {
-            font: normal 500 16px 'Montserrat', sans-serif;
-            line-height: 31px;
-            color: $black;
 
-            img {
-                margin-left: 10px;
-            }
+    }
+    .next-page {
+        font: normal 500 16px 'Montserrat', sans-serif;
+        line-height: 31px;
+        color: $black;
+
+        img {
+            margin-left: 10px;
         }
     }
 
@@ -49,6 +50,9 @@
         border-radius: 10px;
         position: relative;
         margin-bottom: 30px;
+        img{
+            padding: 1px;
+        }
         .text_ {
             border-radius: 10px;
             position: absolute;
@@ -185,6 +189,9 @@
     .news {
         border-radius: 10px;
         position: relative;
+        img{
+            padding: 1px;
+        }
         .text_ {
             border-radius: 10px;
             position: absolute;

@@ -264,7 +264,7 @@
         <div class="title">
             <div class="container">
                 <div class="d-flex justify-content-between  align-items-center">
-                    <h2 class="p-0 m-0">Lazer avadanlığı</h2>
+                    <h2 class="p-0 m-0">Lazer və kosmetoloji avadanlıq</h2>
                     <a href="#" class="next-page">
                         Daha çox <img src="./img/next-page.png" />
                     </a>
@@ -918,9 +918,7 @@
             <div class="container">
                 <div class="d-flex justify-content-between  align-items-center">
                     <h2 class="p-0 m-0">Tərəfdaşlarımız</h2>
-                    <a href="#" class="next-page">
-                        Daha çox <img src="./img/nextpage.png" />
-                    </a>
+
                 </div>
 
             </div>

@@ -167,6 +167,41 @@ $(".detail .regular").slick({
     fade: true,
     cssEase: "linear",
 });
+$(".others .regular").slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    prevArrow: '<button class="prev"><img src="./img/right.png"/></button>',
+    nextArrow: '<button class="next"><img src="./img/leftt.png"/></button>',
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [{
+        breakpoint: 1024,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: false
+        }
+    },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            },
+
+        }
+    ]
+});
 $("#new_arrival .regular").slick({
     infinite: false,
     speed: 300,

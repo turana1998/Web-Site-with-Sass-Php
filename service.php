@@ -15,6 +15,59 @@
         </div>
     </div>
     <div class="container">
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="delivery_">
+                    <img src="./img/d1.png" />
+                    <div class="">
+                        <h3>Çatdırılma şərtləri</h3>
+                        <p>
+                            Sifarişlərin çatdırılması Azərbaycanın bütün bölgələrində həyata keçirilir.
+
+
+                            Çatdırılma kuryer xidməti tərəfindən həyata keçirildiyi üçün, məhsulların təhlükəsizliyinə və
+                            bütövlüyünə görə cavabdehlik daşıyırıq.
+
+
+                            Kriokonteynerlərdən istifadə etmək, soyuducuda saxlama üçün nəzərdə tutulan məhsulların
+                            çatdırılması zamanı, lazımi temperaturu saxlamağa imkan verir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 ">
+                <div class="delivery_">
+                    <img src="./img/d2.png" />
+                    <div class="">
+                        <h3>Çatdırılma müddəti</h3>
+                        <table>
+                            <tr>
+                                <td> <p>Bazar ertəsi – Şənbə </p></td>
+                                <td><span>9:00 – 19:00</span></td>
+
+                            </tr>
+                            <tr>
+                                <td> <p> Bazar günü </p></td>
+                                <td><span>10:00 – 19:00</span></td>
+
+                            </tr>
+                        </table>
+
+                        <p>
+
+
+                            Bakı şəhəri ərazisində çatdırılma müddəti 2-3 saat.
+
+
+                            Azərbaycan üzrə çatdırılma şərtləri və müddəti telefon danışığı vasitəsilə, menecerlə individual
+                            olaraq keçirilir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
         <div class="row">
             <div class="col-12">
                 <div class="delivery_">
@@ -58,6 +111,24 @@
             </div>
 
 
+        </div>
+        <div class="row justify-content-center mt-5 mb-5 align-items-center">
+            <div class="col-4">
+                <img class="w-100" src="./img/img1.png"/>
+            </div>
+            <div class="col-6">
+                <div class="row align-items-end">
+                    <div class="col-6">
+                        <img class="w-100" src="./img/img2.png"/>
+                    </div>
+                    <div class="col-6">
+                        <img class="w-100" src="./img/img3.png"/>
+                    </div>
+                    <div class="col-10 mt-3">
+                            <img class="w-100" src="./img/img4.png"/>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
