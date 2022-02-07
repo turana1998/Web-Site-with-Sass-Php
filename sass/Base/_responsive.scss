@@ -5,24 +5,33 @@
 
     .navbar {
         background-color: $menu;
-
-        select {
-            background-color: $icon;
-            border-radius: 50%;
-            outline: none;
-            -moz-appearance: none;
-            -webkit-appearance: none;
-            font: normal 500 12px "Montserrat", sans-serif;
-            line-height: 12px;
-            color: #000000;
-            border: none;
-            margin-right: 20px;
-            padding: 6px 10px;
-
-            ::-ms-expand {
-                display: none;
+        .dropdown-toggle{
+            &::after{
+                content: none;
             }
         }
+
+        .language  button{
+            border: none;
+            outline: none;
+            background-color: $icon;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            font: normal 600 12px 'Montserrat', sans-serif;
+            font-size: 14px;
+            line-height: 12px;
+            letter-spacing: 0.06em;
+            color: $black;
+            margin-left: 10px;
+            border-radius: 50%;
+            line-height: 12px;
+            color: #000000;
+            margin-right: 20px;
+            padding: 15px 10px;
+
+            
+        }
+       
     }
     .share.show button {
         

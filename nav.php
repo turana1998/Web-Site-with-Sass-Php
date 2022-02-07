@@ -42,8 +42,8 @@
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
                     <div class="dropdown language">
-                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             AZ
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -148,9 +148,9 @@
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="service.php">Servis</a>
                             </li>
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="delivery.php">Çatdırılma</a>-->
-<!--                            </li>-->
+                            <!--                            <li class="nav-item">-->
+                            <!--                                <a class="nav-link" href="delivery.php">Çatdırılma</a>-->
+                            <!--                            </li>-->
 
                             <li class="nav-item">
                                 <a class="nav-link" href="about.php">Haqqımızda</a>
@@ -194,10 +194,17 @@
                     <img src="./img/logo.png" />
                 </a>
                 <div class="d-flex">
-                    <select>
-                        <option>EN</option>
-                        <option>AZ</option>
-                    </select>
+                    <div class="dropdown language">
+                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            AZ
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">AZ</a></li>
+                            <li><a class="dropdown-item" href="#">RU</a></li>
+                        </ul>
+                    </div>
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
@@ -234,9 +241,9 @@
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="service.php">Servis</a>
                             </li>
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="delivery.php">Çatdırılma</a>-->
-<!--                            </li>-->
+                            <!--                            <li class="nav-item">-->
+                            <!--                                <a class="nav-link" href="delivery.php">Çatdırılma</a>-->
+                            <!--                            </li>-->
 
                             <li class="nav-item">
                                 <a class="nav-link" href="about.php">Haqqımızda</a>
