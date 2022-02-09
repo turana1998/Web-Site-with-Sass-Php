@@ -5,3 +5,36 @@ $justify-content-center:center;
 $text-align-center:center;
 $position-relative:relative;
 $position-absolute:absolute;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl:1240px
+);
+
+@media only screen and (min-width: 992px) {
+    $width:map-get($container-max-widths ,lg );
+    .is-style-container-50 {
+         max-width: 200px;
+         margin-left: calc((100vw - #{$width})/2)!important;
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+    $width:map-get($container-max-widths , xl);
+    .is-style-container-50 {
+         max-width: 200px;
+         margin-left: calc((100vw - #{$width})/2)!important;
+    }
+    
+}
+@media only screen and (min-width: 1400px) {
+    $width:map-get($container-max-widths , xxl);
+    .is-style-container-50 {
+         max-width: 200px;
+         margin-left: calc((100vw - #{$width})/2)!important;
+    }
+    
+}

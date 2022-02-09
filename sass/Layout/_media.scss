@@ -189,10 +189,12 @@
     .news {
         border-radius: 10px;
         position: relative;
+        border-radius: 10px;
         img{
             padding: 1px;
         }
         .text_ {
+            width: 100%;
             border-radius: 10px;
             position: absolute;
             bottom: 0;

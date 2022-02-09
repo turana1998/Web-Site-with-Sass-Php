@@ -138,7 +138,7 @@ $(window).bind('scroll', function() {
     }
 });
 $(function() {
-    $('.slick-dots').addClass('container');
+    $('.slick-dots').addClass('is-style-container-50');
 });
 
 function openSearch() {
