@@ -9,9 +9,11 @@
     .title {
         border-bottom: 1px solid $border;
         margin-bottom: 25px;
-        ::marker{
+
+        ::marker {
             color: $link;
         }
+
         a {
             font: normal 500 14px 'Montserrat', sans-serif;
             line-height: 12px;
@@ -24,7 +26,8 @@
             a {
                 color: $black !important;
             }
-            &::marker{
+
+            &::marker {
                 color: $black !important;
             }
         }
@@ -59,14 +62,17 @@
 
     .tab {
         margin-bottom: 50px;
+
         .active {
             display: inline;
-            a{
+
+            a {
                 font-weight: 600 !important;
                 color: $main !important;
                 display: inline;
             }
         }
+
         .tablinks {
             background-color: transparent;
             border: none;
@@ -79,10 +85,10 @@
                 margin-right: 30px;
                 display: inline;
             }
-            
+
         }
     }
-    
+
     .tabcontent {
         display: none;
     }
@@ -90,6 +96,7 @@
     .active {
         display: block;
     }
+
     .new_arrival_item {
         background-color: $white;
         padding: 15px 15px 10px 15px;
@@ -99,16 +106,19 @@
         .image {
             border-bottom: 1px solid $grid-border;
             position: relative;
+
             .heading {
                 position: absolute;
                 width: 100%;
                 background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
+
                 h3 {
                     font: normal bold 16px 'Montserrat', sans-serif;
                     line-height: 33px;
                     text-align: center;
                     color: $black;
-                    &:hover{
+
+                    &:hover {
                         color: $main;
                     }
                 }
@@ -133,6 +143,29 @@
         }
 
 
+    }
+
+    .panel {
+        margin: 20px 0;
+        .inline {
+            background: #FFFFFF;
+            border-radius: 2px;
+            padding: 4px 10px;
+            font-family: Montserrat;
+            font-style: normal;
+            margin-right: 10px;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 19px;
+            color: #000000;
+            align-items: center;
+            button{
+                background-color: transparent;
+                outline: none;
+                border: none;
+                margin-left: 10px;
+            }
+        }
     }
 
 }
@@ -168,10 +201,12 @@
         padding: 15px 15px 10px 15px;
         border-radius: 10px;
         margin-bottom: 30px;
-        .new_arrival_img{
+
+        .new_arrival_img {
             height: 300px;
             object-fit: contain;
         }
+
         .image {
             border-bottom: 1px solid $grid-border;
 

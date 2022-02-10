@@ -96,6 +96,29 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
  <script>
+function addPanel(element) {
+    let panel = document.querySelector(".panel");
+    if (element.checked == true) {
+        console.log(element.parentElement.innerText);
+        let elem = `
+                <div class="inline d-flex" >
+                    ${element.parentElement.innerText}
+                    <button onclick="DeleteMe(this)">X</button>
+                </div>
+            `
+        panel.innerHTML += elem
+    } else {
+        console.log("no");
+        console.log(panel.firstChild);
+        panel.removeChild(panel.firstChild);
+    }
+
+}
+
+function DeleteMe(el) {
+    let element = el;
+    $(element).parent('div').remove();
+}
 $(function() {
     let click = 0;
     $('#ChangeToggle').click(function() {

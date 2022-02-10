@@ -5,13 +5,14 @@
 
     .navbar {
         background-color: $menu;
-        .dropdown-toggle{
-            &::after{
+
+        .dropdown-toggle {
+            &::after {
                 content: none;
             }
         }
 
-        .language  button{
+        .language button {
             border: none;
             outline: none;
             background-color: $icon;
@@ -29,15 +30,17 @@
             margin-right: 20px;
             padding: 15px 10px;
 
-            
+
         }
-       
+
     }
+
     .share.show button {
-        
+
         padding: 15px 5px !important;
         font: normal normal 13px "Montserrat", sans-serif !important;
     }
+
     // header responsive
     #header {
         // margin-top: 50px;
@@ -146,6 +149,7 @@
         .menu-link {
             margin-bottom: 0 !important;
         }
+
         .title {
             padding: 0;
             margin-bottom: 20px;
@@ -154,20 +158,25 @@
                 font-size: 20px;
             }
         }
-        .delivery_{
+
+        .delivery_ {
             padding: 20px 10px !important;
             text-align: center;
-            img{
+
+            img {
                 margin: auto;
             }
-            h3{
+
+            h3 {
                 font-size: 14px !important;
             }
-            p{
+
+            p {
                 font-size: 12px !important;
                 line-height: 16px !important;
             }
         }
+
         padding-top: 0 !important;
     }
 
@@ -266,7 +275,11 @@
                         content: none;
                     }
                 }
-
+                .dropdown-item{
+                    &:hover{
+                        background-color: transparent !important;
+                    }
+                }
                 ul {
                     padding: 20px 40px;
                     width: 200px;
@@ -287,8 +300,80 @@
                     font: normal 600 14px "Montserrat", sans-serif;
                     letter-spacing: 0.02em;
                     color: $black;
-                    border-bottom: 0.5px solid #EEEEEE;
+                    border-bottom: 0.5px solid #fff;
                     padding: 10px 0;
+                    line-height: 25px;
+
+                    .container {
+                        display: block;
+                        position: relative;
+                        margin-bottom: 12px;
+                        cursor: pointer;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                    }
+
+                    /* Hide the browser's default checkbox */
+                    .container input {
+                        position: absolute;
+                        opacity: 0;
+                        cursor: pointer;
+                        height: 0;
+                        width: 0;
+                    }
+
+                    /* Create a custom checkbox */
+                    .checkmark {
+                        position: absolute;
+                        top: 0;
+                        right: -35px;
+                        height: 25px;
+                        width: 25px;
+                        background-color: transparent;
+                    }
+
+                    /* On mouse-over, add a grey background color */
+                    .container:hover input~.checkmark {
+                        background-color: #fff;
+                    }
+
+                    /* When the checkbox is checked, add a blue background */
+                    .container input:checked~.checkmark {
+                        background-color: #fff;
+                    }
+
+                    /* Create the checkmark/indicator (hidden when not checked) */
+                    .checkmark {
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            display: none;
+                        }
+                    }
+
+                    /* Show the checkmark when checked */
+                    .container input:checked~.checkmark {
+                        &::after {
+                            display: block;
+                        }
+                    }
+
+                    /* Style the checkmark/indicator */
+                    .container .checkmark {
+                        &::after {
+                            left: 9px;
+                            top: 5px;
+                            width: 5px;
+                            height: 10px;
+                            border: solid #2196F3;
+                            border-width: 0 3px 3px 0;
+                            -webkit-transform: rotate(45deg);
+                            -ms-transform: rotate(45deg);
+                            transform: rotate(45deg);
+                        }
+                    }
 
                 }
 
@@ -406,8 +491,10 @@
     #footer {
         padding: 0;
     }
-    #about{
+
+    #about {
         padding-top: 0px;
+
         .title {
             padding-bottom: 0;
             margin-bottom: 20px;
@@ -420,15 +507,17 @@
                 font-size: 10px;
             }
         }
-        
+
 
         .menu-link {
             margin-bottom: 0 !important;
         }
-        img{
+
+        img {
             padding: 10px 0 !important;
         }
-        p{
+
+        p {
             font-size: 12px !important;
             line-height: 16px !important;
         }
@@ -518,8 +607,9 @@
                 width: 150px !important;
                 object-fit: cover;
             }
-            .text_{
-                img{
+
+            .text_ {
+                img {
                     width: 30px !important;
                 }
             }
@@ -618,31 +708,39 @@
 
     #contact {
         padding-top: 0px;
-         .menu-link {
+
+        .menu-link {
             margin-bottom: 0px;
         }
-        i{
+
+        i {
             display: none;
         }
+
         .contact-form {
-            label{
-               font-size: 13px !important; 
+            label {
+                font-size: 13px !important;
             }
-            button{
+
+            button {
                 margin-left: unset !important;
             }
-            
+
         }
-        .contact-text{
-            margin:0 0 20px 0 !important;
-            
-            b,p{
+
+        .contact-text {
+            margin: 0 0 20px 0 !important;
+
+            b,
+            p {
                 font-size: 12px !important;
             }
-            p{
+
+            p {
                 padding-top: 5px !important;
             }
         }
+
         .title {
             padding-bottom: 0;
             margin-bottom: 20px;
@@ -679,6 +777,7 @@
         .menu-link {
             margin-bottom: 0 !important;
         }
+
         .title {
             padding: 0;
             margin-bottom: 20px;

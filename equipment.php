@@ -20,9 +20,16 @@
                             aria-expanded="false">
                             <a href="#">Filterlə<img src="./img/filter.png" /></a>
                         </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2" data-popper-placement="bottom-end">
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2"
+                            data-popper-placement="bottom-end">
                             <button type="button" id="btnFilter"><img src="./img/cancel.png" /></a></button>
-                            <li><a class="dropdown-item" href="#">Candela</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <label class="container">One
+                                        <input onchange="addPanel(this)" type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </a>
+                            </li>
                             <li><a class="dropdown-item" href="#">Lutronic</a></li>
                             <li><a class="dropdown-item" href="#">Zimmer</a></li>
                             <li><a class="dropdown-item" href="#">Nora Bode</a></li>
@@ -36,11 +43,17 @@
                         </ul>
                     </div>
                 </div>
+
             </div>
 
         </div>
+
     </div>
+
     <div class="container ">
+        <div class="panel d-flex d-sm-none">
+
+        </div>
         <div class="tab d-flex d-none d-sm-block">
             <button class="tablinks active" onclick="openCity(event, 'one')"><a href="#">Candela</a></button>
             <button class="tablinks" onclick="openCity(event, 'two')"><a href="#">Lutronic</a></button>

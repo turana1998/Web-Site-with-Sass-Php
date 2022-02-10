@@ -814,6 +814,33 @@
   padding-top: 10px;
 }
 
+#__equipment .panel {
+  margin: 20px 0;
+}
+
+#__equipment .panel .inline {
+  background: #FFFFFF;
+  border-radius: 2px;
+  padding: 4px 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 19px;
+  color: #000000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#__equipment .panel .inline button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+}
+
 #_equipment {
   padding-top: 130px;
   background-color: #f8f9fa;
@@ -2022,6 +2049,9 @@ input:focus {
   #__equipment .title .filter .dropdown-toggle::after {
     content: none;
   }
+  #__equipment .title .filter .dropdown-item:hover {
+    background-color: transparent !important;
+  }
   #__equipment .title .filter ul {
     padding: 20px 40px;
     width: 200px;
@@ -2038,8 +2068,65 @@ input:focus {
     font: normal 600 14px "Montserrat", sans-serif;
     letter-spacing: 0.02em;
     color: #000000;
-    border-bottom: 0.5px solid #EEEEEE;
+    border-bottom: 0.5px solid #fff;
     padding: 10px 0;
+    line-height: 25px;
+    /* Hide the browser's default checkbox */
+    /* Create a custom checkbox */
+    /* On mouse-over, add a grey background color */
+    /* When the checkbox is checked, add a blue background */
+    /* Create the checkmark/indicator (hidden when not checked) */
+    /* Show the checkmark when checked */
+    /* Style the checkmark/indicator */
+  }
+  #__equipment .title .filter a .container {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  #__equipment .title .filter a .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  #__equipment .title .filter a .checkmark {
+    position: absolute;
+    top: 0;
+    right: -35px;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+  }
+  #__equipment .title .filter a .container:hover input ~ .checkmark {
+    background-color: #fff;
+  }
+  #__equipment .title .filter a .container input:checked ~ .checkmark {
+    background-color: #fff;
+  }
+  #__equipment .title .filter a .checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  #__equipment .title .filter a .container input:checked ~ .checkmark::after {
+    display: block;
+  }
+  #__equipment .title .filter a .container .checkmark::after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #2196F3;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   #__equipment .title .filter img {
     padding-left: 10px;
@@ -2307,7 +2394,8 @@ input:focus {
   #contact .contact-text {
     margin: 0 0 20px 0 !important;
   }
-  #contact .contact-text b, #contact .contact-text p {
+  #contact .contact-text b,
+  #contact .contact-text p {
     font-size: 12px !important;
   }
   #contact .contact-text p {

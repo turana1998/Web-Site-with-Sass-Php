@@ -225,7 +225,7 @@
                 </div>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
-                     <!-- <div class="offcanvas-header ">
+                    <!-- <div class="offcanvas-header ">
 
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
@@ -233,23 +233,41 @@
                     <div class="offcanvas-body p-0">
                         <ul class="navbar-nav m-auto">
                             <li class="dropdown">
-                                <a class="nav-link dropdown-toggle" href="equipment.php" id="offcanvasNavbarDropdown"
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Məhsullar
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                    <li><a class="dropdown-item" href="equipment.php">Məhsullar</a></li>
-                                    <li><a class="dropdown-item" href="equipment.php">Məhsullar</a></li>
+                                    <li class="dropdown">
+                                        <a class="nav-link dropdown-toggle" href="equipment.php"
+                                            id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Lazer 
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item" href="equipment.php">Lazer 1.1</a></li>
+                                            <li><a class="dropdown-item" href="equipment.php">Lazer 1.2</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="nav-link dropdown-toggle" href="equipment.php"
+                                            id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Lazer 2
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item" href="equipment.php">Lazer 2.1</a></li>
+                                            <li><a class="dropdown-item" href="equipment.php">Lazer 2,2</a></li>
+
+                                        </ul>
+                                    </li>
 
                                 </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="service.php">Servis</a>
                             </li>
-                            <!--                            <li class="nav-item">-->
-                            <!--                                <a class="nav-link" href="delivery.php">Çatdırılma</a>-->
-                            <!--                            </li>-->
-
                             <li class="nav-item">
                                 <a class="nav-link" href="about.php">Haqqımızda</a>
                             </li>
