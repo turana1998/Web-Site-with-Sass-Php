@@ -15,9 +15,10 @@
 
         .next-page {
             font: normal 500 16px 'Montserrat', sans-serif;
-            line-height: 31px; 
+            line-height: 31px;
             color: $main;
-            img{
+
+            img {
                 margin-left: 10px;
             }
         }
@@ -29,19 +30,27 @@
         border-radius: 10px;
         margin-bottom: 30px;
 
+        .new_arrival_img {
+            height: 300px;
+            object-fit: contain;
+        }
+
         .image {
             border-bottom: 1px solid $grid-border;
             position: relative;
+
             .heading {
                 position: absolute;
                 width: 100%;
                 background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
+
                 h3 {
                     font: normal bold 16px 'Montserrat', sans-serif;
                     line-height: 33px;
                     text-align: center;
                     color: $black;
-                    &:hover{
+
+                    &:hover {
                         color: $main;
                     }
                 }

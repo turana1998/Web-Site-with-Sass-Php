@@ -190,8 +190,13 @@
         border-radius: 10px;
         position: relative;
         border-radius: 10px;
+        .media__image{
+            height: 400px;
+            object-fit: cover;
+            // questions
+        }
         img{
-            padding: 1px;
+            padding: 3px;
         }
         .text_ {
             width: 100%;
@@ -212,6 +217,7 @@
                 line-height: 17px;
                 color: $black;
                 margin-bottom: 30px;
+                word-break: break-all;
             }
 
             .time {
