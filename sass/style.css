@@ -90,14 +90,26 @@
   background-color: #FFFFFF;
 }
 
+.botton__nav .btn-close {
+  opacity: 0.5;
+}
+
+.botton__nav .btn-close:hover {
+  opacity: 0.5;
+}
+
 .botton__nav .offcanvas-backdrop.show {
   opacity: 0;
 }
 
 .botton__nav .offcanvas-end {
-  top: 70px;
+  top: 90px;
   border: none;
   width: 100%;
+}
+
+.botton__nav .offcanvas-backdrop {
+  top: 90px;
 }
 
 .botton__nav .offcanvas-header {
@@ -1078,6 +1090,7 @@
   border-radius: 10px;
   position: relative;
   border-radius: 10px;
+  padding: 5px;
 }
 
 #media .news .media__image {

@@ -23,7 +23,7 @@
 
 <body>
     <!-- Navbar section start -->
-    <section id="top_navbar" class="d-none d-sm-block">
+    <section id="top_navbar" class="d-none d-md-block">
         <div class="container">
             <div class="top__nav">
                 <div class="contact__information">
@@ -57,7 +57,7 @@
         </div>
     </section>
     <!-- Navbar section end desktop -->
-    <section id="bottom_navbar" class="d-none d-sm-block">
+    <section id="bottom_navbar" class="d-none d-md-block">
         <div class="botton__nav">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
                 <div class="container">
@@ -186,14 +186,14 @@
         </div>
     </section>
     <!-- Navbar section end mobile -->
-    <section class="botton__nav d-block d-sm-none">
+    <section class="botton__nav d-block d-md-none">
 
         <nav class="navbar navbar-light ">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
                     <img src="./img/logo.png" />
                 </a>
-                <div class="d-flex">
+                <div class="d-flex align-items-center">
                     <div class="dropdown language">
                         <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -205,9 +205,14 @@
                             <li><a class="dropdown-item" href="#">RU</a></li>
                         </ul>
                     </div>
-                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                    <button id="ChangeToggle" class="border-0 navbar-toggler " type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                        <span class="navbar-toggler-icon"></span>
+                        <div id="open">
+                            <span class="navbar-toggler-icon"></span>
+                        </div>
+                        <div id="close" class="d-none">
+                            X
+                        </div>
                     </button>
                 </div>
                 <div class="overlayy">
@@ -220,11 +225,11 @@
                 </div>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header ">
+                     <!-- <div class="offcanvas-header ">
 
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
-                    </div>
+                    </div>  -->
                     <div class="offcanvas-body p-0">
                         <ul class="navbar-nav m-auto">
                             <li class="dropdown">

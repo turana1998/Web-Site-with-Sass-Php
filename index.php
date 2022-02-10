@@ -73,7 +73,7 @@
 
             </div>
         </div>
-        <div class="container d-none d-sm-block">
+        <div class="container d-none d-md-block">
             <div class="regular row">
                 <a href="#">
                     <div class="new_arrival_item">
@@ -190,7 +190,7 @@
 
             </div>
         </div>
-        <div class="container d-block d-sm-none">
+        <div class="container d-block d-md-none">
             <div class="regular row">
                 <div class="new_arrival_item">
                     <div class="image">
@@ -272,7 +272,7 @@
 
             </div>
         </div>
-        <div class="container d-none d-sm-block">
+        <div class="container d-none d-md-block">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <a href="#">
@@ -394,7 +394,7 @@
                 </div>
             </div>
         </div>
-        <div class="container d-block d-sm-none">
+        <div class="container d-block d-md-none">
             <div class="regular row">
                 <div class="new_arrival_item">
                     <div class="image">
@@ -475,7 +475,7 @@
 
             </div>
         </div>
-        <div class="container d-none d-sm-block">
+        <div class="container d-none d-md-block">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="new_arrival_item">
@@ -569,7 +569,7 @@
                 </div>
             </div>
         </div>
-        <div class="container d-block d-sm-none">
+        <div class="container d-block d-md-none">
             <div class="regular row">
                 <div class="new_arrival_item">
                     <div class="image">
@@ -650,7 +650,7 @@
 
             </div>
         </div>
-        <div class="container d-none d-sm-block">
+        <div class="container d-none d-md-block">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="new_arrival_item">
@@ -759,7 +759,7 @@
                 </div>
             </div>
         </div>
-        <div class="container d-block d-sm-none">
+        <div class="container d-block d-md-none">
             <div class="regular row">
                 <div class="new_arrival_item">
                     <div class="image">
@@ -840,7 +840,7 @@
 
             </div>
         </div>
-        <div class="container d-none d-sm-block">
+        <div class="container d-none d-md-block">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="news">
@@ -883,7 +883,7 @@
                 </div>
             </div>
         </div>
-        <div class="container d-block d-sm-none">
+        <div class="container d-block d-md-none">
             <div class="regular row">
                 <div class="news">
                     <img width="100%" class="media__image" src="./img/news.png" />

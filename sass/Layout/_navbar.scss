@@ -63,14 +63,23 @@
 }
 
 .botton__nav {
+    .btn-close{
+        opacity: 0.5;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
     background-color: $white;
     .offcanvas-backdrop.show{
         opacity: 0;
     }
     .offcanvas-end{
-        top: 70px;
+        top: 90px;
         border: none;
         width: 100%;
+    }
+    .offcanvas-backdrop{
+        top: 90px;
     }
     .offcanvas-header{
         justify-content: flex-end;
