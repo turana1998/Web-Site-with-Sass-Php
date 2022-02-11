@@ -73,6 +73,9 @@
 }
 
 .botton__nav {
+    .modal-body{
+        height: 100vh;
+    }
     .menu-btn {
         font: normal normal 23px 'Montserrat', sans-serif !important;
         line-height: 30px !important;
@@ -89,6 +92,23 @@
             
 
         }
+    }
+    .detailb{
+        font: normal normal 23px 'Montserrat', sans-serif !important;
+        line-height: 30px !important;
+        color: #656565 !important;
+        padding:10px 0;
+        border-bottom: 0.5px solid #CFCFCF !important;
+        margin:10px 40px !important;
+        width: 82%;
+        margin-bottom: 15px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
     }
 
     .modal {
@@ -187,7 +207,7 @@
                 .menu-btn i{
                     color: $white !important;
                 }
-                button{
+                .menu-btn{
                     border: none !important;
                    span{
                     color: $white !important;
@@ -236,42 +256,7 @@
 
     }
 
-    .navbar-nav-menu .nav-item-menu {
-        padding: 10px 0;
-
-        .nav-link-menu {
-            font: normal normal 23px 'Montserrat', sans-serif !important;
-            line-height: 30px !important;
-            color: #656565 !important;
-            margin: 0 0 15px 0 !important;
-            border-bottom: 2px solid $white;
-            padding: 0;
-            border-bottom: 0.5px solid #CFCFCF !important;
-            margin:10px 40px !important;
-            display: block;
-
-
-
-        }
-        .nav-link-menu-heading {
-            font: normal 500 23px 'Montserrat', sans-serif !important;
-            line-height: 30px !important;
-            color: $main !important;
-            margin: 0 0 15px 0 !important;
-            border-bottom: 1px solid $main;
-            padding: 20px 40px;
-            margin:10px 0px !important;
-            display: block;
-
-
-
-        }
-    }
-
-    .navbar-nav-menu .nav-item-menu .nav-link-menu.show {
-        color: $main;
-        border-bottom: 1px solid $main;
-    }
+  
 
     .navbar-nav .nav-item .nav-link.show {
         color: $main;
@@ -403,4 +388,41 @@
         max-height: 90vh;
         margin-top: 10px;
     }
+}
+
+.navbar-nav-menu .nav-item-menu {
+    padding: 10px 0;
+
+    .nav-link-menu {
+        font: normal normal 23px 'Montserrat', sans-serif !important;
+        line-height: 30px !important;
+        color: #656565 !important;
+        margin: 0 0 15px 0 !important;
+        border-bottom: 2px solid $white;
+        padding: 0;
+        border-bottom: 0.5px solid #CFCFCF !important;
+        margin:10px 40px !important;
+        display: block;
+
+
+
+    }
+    .nav-link-menu-heading {
+        font: normal 500 23px 'Montserrat', sans-serif !important;
+        line-height: 30px !important;
+        color: $main !important;
+        margin: 0 0 15px 0 !important;
+        border-bottom: 1px solid $main;
+        padding: 20px 40px;
+        margin:10px 0px !important;
+        display: block;
+
+
+
+    }
+}
+
+.navbar-nav-menu .nav-item-menu .nav-link-menu.show {
+    color: $main;
+    border-bottom: 1px solid $main;
 }

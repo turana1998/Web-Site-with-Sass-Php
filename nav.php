@@ -261,7 +261,12 @@
                                                         <a class="nav-link-menu" href="media.php">Media</a>
                                                     </li>
                                                     <li class="nav-item-menu">
-                                                        <a class="nav-link-menu" href="contact.php">Əlaqə</a>
+                                                        <button type="button" class="detailb" data-bs-toggle="modal"
+                                                            data-bs-target="#product-menu-detail">
+                                                            <span> Məhsullar-detail </span>
+                                                            <i class="bi bi-chevron-right"></i>
+                                                        </button>
+
                                                     </li>
                                                 </ul>
                                             </div>
@@ -284,6 +289,33 @@
                             </li>
                         </ul>
 
+                    </div>
+                </div>
+                 <div class="modal fade" id="product-menu-detail" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog m-0">
+                        <div class="modal-content border-0">
+
+                            <div class="modal-body">
+                                <ul class="navbar-nav-menu m-auto">
+                                    <li class="nav-item-menu ">
+                                        <div class="nav-link-menu-heading d-flex">
+                                            <button type="button" class="border-0 bg-transparent "
+                                                data-bs-dismiss="modal">
+                                                <i class="bi bi-chevron-left"></i>
+                                            </button>
+                                            <h5 class="mx-3" id="exampleModalLabel">Məhsullar Detail
+                                            </h5>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item-menu">
+                                        <a class="nav-link-menu " aria-current="page" href="service.php">LAzer</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
