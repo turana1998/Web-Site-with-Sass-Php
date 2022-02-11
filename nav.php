@@ -225,45 +225,50 @@
                 </div>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
-                    <!-- <div class="offcanvas-header ">
-
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>  -->
                     <div class="offcanvas-body p-0">
                         <ul class="navbar-nav m-auto">
-                            <li class="dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Məhsullar
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                    <li class="dropdown">
-                                        <a class="nav-link dropdown-toggle" href="equipment.php"
-                                            id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Lazer 
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                            <li><a class="dropdown-item" href="equipment.php">Lazer 1.1</a></li>
-                                            <li><a class="dropdown-item" href="equipment.php">Lazer 1.2</a></li>
+                            <li class="nav-item">
+                                <button type="button"
+                                    class="menu-btn border-0 bg-transparent d-flex  justify-content-between align-items-center"
+                                    data-bs-toggle="modal" data-bs-target="#product-menu">
+                                    <span> Məhsullar</span>
+                                    <i class="bi bi-chevron-right"></i>
+                                </button>
+                                <div class="modal fade" id="product-menu" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog m-0">
+                                        <div class="modal-content border-0">
 
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a class="nav-link dropdown-toggle" href="equipment.php"
-                                            id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Lazer 2
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                            <li><a class="dropdown-item" href="equipment.php">Lazer 2.1</a></li>
-                                            <li><a class="dropdown-item" href="equipment.php">Lazer 2,2</a></li>
+                                            <div class="modal-body">
+                                                <ul class="navbar-nav-menu m-auto">
+                                                    <li class="nav-item-menu ">
+                                                        <div class="nav-link-menu-heading d-flex">
+                                                            <button type="button" class="border-0 bg-transparent "
+                                                                data-bs-dismiss="modal">
+                                                                <i class="bi bi-chevron-left"></i>
+                                                            </button>
+                                                            <h5 class="mx-3" id="exampleModalLabel">Məhsullar</h5>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item-menu">
+                                                        <a class="nav-link-menu " aria-current="page"
+                                                            href="service.php">Servis</a>
+                                                    </li>
+                                                    <li class="nav-item-menu">
+                                                        <a class="nav-link-menu" href="about.php">Haqqımızda</a>
+                                                    </li>
+                                                    <li class="nav-item-menu">
+                                                        <a class="nav-link-menu" href="media.php">Media</a>
+                                                    </li>
+                                                    <li class="nav-item-menu">
+                                                        <a class="nav-link-menu" href="contact.php">Əlaqə</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
-                                        </ul>
-                                    </li>
-
-                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="service.php">Servis</a>
