@@ -1,4 +1,5 @@
 @media (max-width: 992px) {
+    
     .container {
         width: 90%;
     }
@@ -253,6 +254,9 @@
     }
 
     #__equipment {
+        .new_arrival_img{
+            height: 200px !important;
+        }
         padding-top: 0px;
 
         .title {
@@ -597,6 +601,11 @@
     }
 
     #media_ {
+        .media__image{
+            height: 200px !important;
+            object-fit: cover;
+            // questions
+        }
         .menu-link {
             margin-bottom: 0 !important;
         }

@@ -875,6 +875,12 @@
   margin-bottom: 30px;
 }
 
+#__equipment .new_arrival_item .new_arrival_img {
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 #__equipment .new_arrival_item .image {
   border-bottom: 1px solid #CFCFCF;
   position: relative;
@@ -1078,8 +1084,14 @@
   margin-bottom: 30px;
 }
 
+#media_ .news .media__image {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 #media_ .news img {
-  padding: 1px;
+  padding: 3px;
 }
 
 #media_ .news .text_ {
@@ -1807,6 +1819,12 @@
   width: 90% !important;
 }
 
+#product .others .new_arrival_item .new_arrival_img {
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 #product .others .new_arrival_item .image {
   border-bottom: 1px solid #CFCFCF;
   position: relative;
@@ -2132,6 +2150,9 @@ input:focus {
   #__equipment {
     padding-top: 0px;
   }
+  #__equipment .new_arrival_img {
+    height: 200px !important;
+  }
   #__equipment .title {
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -2387,6 +2408,11 @@ input:focus {
   }
   #media_ {
     padding-top: 0px;
+  }
+  #media_ .media__image {
+    height: 200px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   #media_ .menu-link {
     margin-bottom: 0 !important;

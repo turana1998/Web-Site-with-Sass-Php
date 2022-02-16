@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col-6 col-lg-4">
                 <div class="news">
-                    <img width="100%" height="100%" src="./img/news.png" />
+                    <img width="100%" class="media__image" src="./img/news.png" />
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
                         <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
@@ -31,7 +31,7 @@
             </div>
             <div class="col-6 col-lg-4">
                 <div class="news">
-                    <img width="100%" height="100%" src="./img/news.png" />
+                    <img width="100%" class="media__image" src="./img/news.png" />
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
                         <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
@@ -44,7 +44,7 @@
             </div>
             <div class="col-6 col-lg-4">
                 <div class="news">
-                    <img width="100%" height="100%" src="./img/news.png" />
+                    <img width="100%" class="media__image" src="./img/news.png" />
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
                         <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
@@ -57,7 +57,7 @@
             </div>
             <div class="col-6 col-lg-4">
                 <div class="news">
-                    <img width="100%" height="100%" src="./img/news.png" />
+                    <img width="100%" class="media__image" src="./img/news.png" />
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
                         <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
@@ -70,7 +70,7 @@
             </div>
             <div class="col-6 col-lg-4">
                 <div class="news">
-                    <img width="100%" height="100%" src="./img/news.png" />
+                    <img width="100%" class="media__image" src="./img/news.png" />
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
                         <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
@@ -83,7 +83,7 @@
             </div>
             <div class="col-6 col-lg-4">
                 <div class="news">
-                    <img width="100%" height="100%" src="./img/news.png" />
+                    <img width="100%" class="media__image" src="./img/news.png" />
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
                         <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
@@ -96,7 +96,7 @@
             </div>
             <div class="col-6 col-lg-4">
                 <div class="news">
-                    <img width="100%" height="100%" src="./img/news.png" />
+                    <img width="100%" class="media__image" src="./img/news.png" />
                     <div class="text_">
                         <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
                         <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>

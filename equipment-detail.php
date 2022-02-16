@@ -28,7 +28,7 @@
                                 <h3>GentleLase Pro U</h3>
                                 <button><img src="./img/share.png" /></button>
                             </div>
-                            <img width="100%" height="100%" src="./img/element.png" />
+                            <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                         </div>
                         <div class="text">
                             Gentlase Pro U - alexandrit lazer <br>
@@ -44,7 +44,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -59,7 +59,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -74,7 +74,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -89,7 +89,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -104,7 +104,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -119,7 +119,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -134,7 +134,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -149,7 +149,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -164,7 +164,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" height="100%" src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>

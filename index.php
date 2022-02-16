@@ -285,7 +285,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-6 text-center">
-                                        <img height="100%" src="./img/elmt2.png" />
+                                        <img class="new_arrival_img" src="./img/elmt2.png" />
                                     </div>
                                     <div class="col-6 text-center">
                                         <div class="">

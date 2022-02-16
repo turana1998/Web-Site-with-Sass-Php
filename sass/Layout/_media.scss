@@ -50,8 +50,13 @@
         border-radius: 10px;
         position: relative;
         margin-bottom: 30px;
+        .media__image{
+            height: 400px;
+            object-fit: cover;
+            // questions
+        }
         img{
-            padding: 1px;
+            padding: 3px;
         }
         .text_ {
             border-radius: 10px;
