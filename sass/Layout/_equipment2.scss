@@ -102,10 +102,6 @@
         padding: 15px 15px 10px 15px;
         border-radius: 10px;
         margin-bottom: 30px;
-        .new_arrival_img {
-            height: 300px;
-            object-fit: contain;
-        }
 
         .image {
             border-bottom: 1px solid $grid-border;
@@ -146,7 +142,10 @@
             padding-top: 10px;
         }
 
-
+        .new_arrival_img {
+            height: 300px;
+            object-fit: contain;
+        }
     }
 
     .panel {

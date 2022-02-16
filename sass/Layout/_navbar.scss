@@ -78,37 +78,25 @@
     }
     .menu-btn {
         font: normal normal 23px 'Montserrat', sans-serif !important;
-        line-height: 30px !important;
         color: #656565 !important;
-        padding:10px 0;
+        padding:25px 0;
         border-bottom: 0.5px solid #CFCFCF !important;
-        margin:10px 40px !important;
-        width: 82%;
-        margin-bottom: 15px;
+        margin:0px 40px !important;
+        width: 100%;
         &:hover {
-            
-
-                color: $white !important;
-            
-
+            color: $white !important;
         }
     }
     .detailb{
-        font: normal normal 23px 'Montserrat', sans-serif !important;
-        line-height: 30px !important;
+        font: normal normal 20px 'Montserrat', sans-serif !important;
         color: #656565 !important;
-        padding:10px 0;
+        padding:25px 0;
+        margin:0px 40px !important;
         border-bottom: 0.5px solid #CFCFCF !important;
-        margin:10px 40px !important;
-        width: 82%;
-        margin-bottom: 15px;
+        width: 100%;
         background-color: transparent;
         border: none;
         outline: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-       
     }
 
     .modal {
@@ -170,12 +158,10 @@
                 line-height: 12px !important;
                 color: #656565 !important;
                 border: none;
-
                 margin: 0 15px !important;
                 padding: 25px 40px;
                 padding-left: 0;
                 width: 90%;
-
             }
         }
 
@@ -183,10 +169,8 @@
             font: normal normal 23px 'Montserrat', sans-serif !important;
             line-height: 30px !important;
             color: #656565 !important;
-
-            margin: 0 0 15px 0 !important;
-            padding: 15px 30px;
-            padding-left: 0;
+            margin: 0px 40px !important;
+            padding: 25px 0px;
 
             &:hover {
                 border: none !important;
@@ -195,8 +179,8 @@
 
         .nav-item {
             .nav-link {
-                padding: 0;
-                margin: 10px 40px !important;
+                margin: 0px 40px !important;
+                padding: 25px 0px;
             }
 
             &:hover {
@@ -214,7 +198,6 @@
                    }
                 }
                 .nav-link {
-
                     color: $white !important;
                 }
 
@@ -222,7 +205,6 @@
         }
 
         .dropdown-toggle.show {
-            padding: 15px 50px;
             color: $main !important;
             border-bottom: 0.5px solid $main !important;
         }
@@ -240,6 +222,19 @@
             right: 20px;
 
         }
+
+        .navbar-nav .nav-item .nav-link {
+            font: normal 600 16px 'Montserrat', sans-serif;
+            color: $black;
+            margin-right: 0px 40px;
+            border-bottom: 2px solid $white;
+            padding: 25px 0;
+            &:hover {
+                color: $main;
+                border-bottom: 2px solid $main;
+            }
+    
+        }
     }
 
     .navbar-nav .nav-item .nav-link {
@@ -253,7 +248,6 @@
             color: $main;
             border-bottom: 2px solid $main;
         }
-
     }
 
   
@@ -381,7 +375,6 @@
 }
 
 @media(max-width: 991px) {
-
     .navbar.fixed-top .navbar-collapse,
     .navbar.sticky-top .navbar-collapse {
         overflow-y: auto;
@@ -391,34 +384,28 @@
 }
 
 .navbar-nav-menu .nav-item-menu {
-    padding: 10px 0;
+    padding: 0px;
 
     .nav-link-menu {
-        font: normal normal 23px 'Montserrat', sans-serif !important;
-        line-height: 30px !important;
+        font: normal normal 20px 'Montserrat', sans-serif !important;
         color: #656565 !important;
-        margin: 0 0 15px 0 !important;
-        border-bottom: 2px solid $white;
-        padding: 0;
         border-bottom: 0.5px solid #CFCFCF !important;
-        margin:10px 40px !important;
+        padding: 25px 0px;
+        margin: 0px 40px;
         display: block;
-
-
-
     }
+
     .nav-link-menu-heading {
         font: normal 500 23px 'Montserrat', sans-serif !important;
-        line-height: 30px !important;
         color: $main !important;
-        margin: 0 0 15px 0 !important;
         border-bottom: 1px solid $main;
-        padding: 20px 40px;
-        margin:10px 0px !important;
+        padding: 25px 40px;
         display: block;
 
-
-
+        h5 {
+            font: normal 500 23px 'Montserrat', sans-serif !important;
+            color: $main !important;
+        }
     }
 }
 

@@ -101,13 +101,11 @@
 
 .botton__nav .menu-btn {
   font: normal normal 23px 'Montserrat', sans-serif !important;
-  line-height: 30px !important;
   color: #656565 !important;
-  padding: 10px 0;
+  padding: 25px 0;
   border-bottom: 0.5px solid #CFCFCF !important;
-  margin: 10px 40px !important;
-  width: 82%;
-  margin-bottom: 15px;
+  margin: 0px 40px !important;
+  width: 100%;
 }
 
 .botton__nav .menu-btn:hover {
@@ -115,26 +113,15 @@
 }
 
 .botton__nav .detailb {
-  font: normal normal 23px 'Montserrat', sans-serif !important;
-  line-height: 30px !important;
+  font: normal normal 20px 'Montserrat', sans-serif !important;
   color: #656565 !important;
-  padding: 10px 0;
+  padding: 25px 0;
+  margin: 0px 40px !important;
   border-bottom: 0.5px solid #CFCFCF !important;
-  margin: 10px 40px !important;
-  width: 82%;
-  margin-bottom: 15px;
+  width: 100%;
   background-color: transparent;
   border: none;
   outline: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .botton__nav .modal {
@@ -201,9 +188,8 @@
   font: normal normal 23px 'Montserrat', sans-serif !important;
   line-height: 30px !important;
   color: #656565 !important;
-  margin: 0 0 15px 0 !important;
-  padding: 15px 30px;
-  padding-left: 0;
+  margin: 0px 40px !important;
+  padding: 25px 0px;
 }
 
 .botton__nav .offcanvas-body .nav-link:hover {
@@ -211,8 +197,8 @@
 }
 
 .botton__nav .offcanvas-body .nav-item .nav-link {
-  padding: 0;
-  margin: 10px 40px !important;
+  margin: 0px 40px !important;
+  padding: 25px 0px;
 }
 
 .botton__nav .offcanvas-body .nav-item:hover {
@@ -236,7 +222,6 @@
 }
 
 .botton__nav .offcanvas-body .dropdown-toggle.show {
-  padding: 15px 50px;
   color: #328BE7 !important;
   border-bottom: 0.5px solid #328BE7 !important;
 }
@@ -252,6 +237,19 @@
   position: absolute;
   top: 15px;
   right: 20px;
+}
+
+.botton__nav .offcanvas-body .navbar-nav .nav-item .nav-link {
+  font: normal 600 16px 'Montserrat', sans-serif;
+  color: #000000;
+  margin-right: 0px 40px;
+  border-bottom: 2px solid #FFFFFF;
+  padding: 25px 0;
+}
+
+.botton__nav .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+  color: #328BE7;
+  border-bottom: 2px solid #328BE7;
 }
 
 .botton__nav .navbar-nav .nav-item .nav-link {
@@ -386,30 +384,29 @@
 }
 
 .navbar-nav-menu .nav-item-menu {
-  padding: 10px 0;
+  padding: 0px;
 }
 
 .navbar-nav-menu .nav-item-menu .nav-link-menu {
-  font: normal normal 23px 'Montserrat', sans-serif !important;
-  line-height: 30px !important;
+  font: normal normal 20px 'Montserrat', sans-serif !important;
   color: #656565 !important;
-  margin: 0 0 15px 0 !important;
-  border-bottom: 2px solid #FFFFFF;
-  padding: 0;
   border-bottom: 0.5px solid #CFCFCF !important;
-  margin: 10px 40px !important;
+  padding: 25px 0px;
+  margin: 0px 40px;
   display: block;
 }
 
 .navbar-nav-menu .nav-item-menu .nav-link-menu-heading {
   font: normal 500 23px 'Montserrat', sans-serif !important;
-  line-height: 30px !important;
   color: #328BE7 !important;
-  margin: 0 0 15px 0 !important;
   border-bottom: 1px solid #328BE7;
-  padding: 20px 40px;
-  margin: 10px 0px !important;
+  padding: 25px 40px;
   display: block;
+}
+
+.navbar-nav-menu .nav-item-menu .nav-link-menu-heading h5 {
+  font: normal 500 23px 'Montserrat', sans-serif !important;
+  color: #328BE7 !important;
 }
 
 .navbar-nav-menu .nav-item-menu .nav-link-menu.show {
@@ -875,12 +872,6 @@
   margin-bottom: 30px;
 }
 
-#__equipment .new_arrival_item .new_arrival_img {
-  height: 300px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 #__equipment .new_arrival_item .image {
   border-bottom: 1px solid #CFCFCF;
   position: relative;
@@ -918,6 +909,12 @@
   text-align: center;
   color: #000000;
   padding-top: 10px;
+}
+
+#__equipment .new_arrival_item .new_arrival_img {
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 #__equipment .panel {
@@ -1091,7 +1088,7 @@
 }
 
 #media_ .news img {
-  padding: 3px;
+  padding: 1px;
 }
 
 #media_ .news .text_ {
@@ -1885,6 +1882,10 @@ ul {
   padding: 0;
 }
 
+p {
+  word-break: break-all !important;
+}
+
 .container {
   padding: 0;
 }
@@ -2183,13 +2184,17 @@ input:focus {
     display: block;
     float: right;
   }
+  #__equipment .title .filter a.selected {
+    font-weight: 600;
+    color: #2196F3;
+  }
   #__equipment .title .filter a {
-    font: normal 600 14px "Montserrat", sans-serif;
+    font: 400 14px "Montserrat", sans-serif;
     letter-spacing: 0.02em;
     color: #000000;
     border-bottom: 0.5px solid #fff;
     padding: 10px 0;
-    line-height: 25px;
+    line-height: 24px;
     /* Hide the browser's default checkbox */
     /* Create a custom checkbox */
     /* On mouse-over, add a grey background color */
@@ -2201,7 +2206,6 @@ input:focus {
   #__equipment .title .filter a .container {
     display: block;
     position: relative;
-    margin-bottom: 12px;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;

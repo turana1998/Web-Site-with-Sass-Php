@@ -17,7 +17,9 @@ ul {
     margin: 0;
     padding: 0;
 }
-
+p{
+    word-break: break-all !important;
+}
 .container {
     padding: 0;
 }
