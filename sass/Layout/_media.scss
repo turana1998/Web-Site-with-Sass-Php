@@ -48,20 +48,17 @@
 
     .news {
         border-radius: 10px;
-        position: relative;
         margin-bottom: 30px;
         .media__image{
-            height: 400px;
+            height: 220px;
             object-fit: cover;
-            // questions
         }
         img{
             padding: 1px;
         }
         .text_ {
+            min-height: 180px;
             border-radius: 10px;
-            position: absolute;
-            bottom: 0;
             background: rgba(255, 255, 255, 0.95);
             padding: 25px 20px 15px 25px;
 
@@ -75,7 +72,8 @@
                 font: normal 300 13px 'Montserrat', sans-serif;
                 line-height: 17px;
                 color: $black;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
+                margin-top: 0;
             }
 
             .time {
@@ -91,6 +89,8 @@
 
         width: 100%;
         padding-bottom: 20px;
+        object-fit: cover;
+        min-height: 400px;
     }
 
     h3 {
@@ -193,20 +193,17 @@
 
     .news {
         border-radius: 10px;
-        position: relative;
         .media__image{
-            height: 400px;
             object-fit: cover;
-            // questions
+            height: 220px;
         }
         img{
             padding: 3px;
         }
         .text_ {
             width: 100%;
+            min-height: 180px;
             border-radius: 10px;
-            position: absolute;
-            bottom: 0;
             background: rgba(255, 255, 255, 0.95);
             padding: 25px 20px 15px 25px;
 
@@ -220,7 +217,7 @@
                 font: normal 300 13px 'Montserrat', sans-serif;
                 line-height: 17px;
                 color: $black;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 word-break: break-all;
             }
 

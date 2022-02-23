@@ -51,25 +51,39 @@
             right: 0;
             margin: auto;
 
-            .slick-active button:before {
-                color: $main;
-                padding: 5px;
+            li {
+                border: 1px solid transparent;
+                box-sizing: border-box;
+                width: 21px;
+                height: 21px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 35px;
+
+                button::before {
+                    display: none;
+                }
+
+                button {
+                    background-color: #f8f8f8;
+                    color: transparent;
+                    width: 11px;
+                    height: 11px;
+                    border-radius: 50%;
+                }
             }
 
             .slick-active {
                 border: 1px solid $main;
-                padding: 13px;
                 border-radius: 50%;
-            }
 
-            li {
-                display: block;
-                margin: 0 0 45px 0;
+                button::before {
+                    display: none;
+                }
 
-                button:before {
-                    font-size: 14px;
-                    color: $white;
-                    opacity: 1;
+                button {
+                    background-color: $main;
                 }
             }
         }

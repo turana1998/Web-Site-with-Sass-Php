@@ -195,8 +195,8 @@
                 <div class="new_arrival_item">
                     <div class="image">
                         <div class="heading d-flex justify-content-end ">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#share"><img src="./img/share.png" /></button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#share"><img src="./img/share.png" /></button>
                         </div>
                         <img width="100%" class="new_arrival_img" src="./img/element.png" />
                     </div>
@@ -469,7 +469,7 @@
                 <div class="d-flex justify-content-between  align-items-center">
                     <h2 class="p-0 m-0">Kosmetologiya</h2>
                     <a href="#" class="next-page">
-                        Daha çox <img src="./img/nextpage.png" />
+                        Daha çox <img class="w-auto" src="./img/nextpage.png" />
                     </a>
                 </div>
 
@@ -644,7 +644,7 @@
                 <div class="d-flex justify-content-between  align-items-center">
                     <h2 class="p-0 m-0">Stomatologiya</h2>
                     <a href="#" class="next-page">
-                        Daha çox <img src="./img/nextpage.png" />
+                        Daha çox <img class="w-auto" src="./img/nextpage.png" />
                     </a>
                 </div>
 
@@ -659,7 +659,7 @@
                                 <h3>Clatuu</h3>
                                 <button><img src="./img/share.png" /></button>
                             </div>
-                            <img  width="100%" class="new_arrival_img" src="./img/elmt8.png" />
+                            <img width="100%" class="new_arrival_img" src="./img/elmt8.png" />
                         </div>
                         <div class="text">
                             Gentlase Pro U - alexandrit lazer <br>
@@ -834,7 +834,7 @@
                 <div class="d-flex justify-content-between  align-items-center">
                     <h2 class="p-0 m-0">Media</h2>
                     <a href="#" class="next-page">
-                        Daha çox <img src="./img/nextpage.png" />
+                        Daha çox <img class="w-auto" src="./img/nextpage.png" />
                     </a>
                 </div>
 
@@ -842,71 +842,122 @@
         </div>
         <div class="container d-none d-md-block">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="news">
-                        <img width="100%" class="media__image" src="./img/news.png" />
-                        <div class="text_">
-                            <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
-                            <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
-                            <div class="d-flex justify-content-between ">
-                                <div class="time">12.09.21</div>
-                                <a href="#"><img src="./img/nextpage.png" /></a>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="#">
+                        <div class="news">
+                            <img width="100%" class="media__image" src="./img/news.png" />
+                            <div class="text_">
+                                <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                                <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                                <div class="d-flex justify-content-between ">
+                                    <div class="time">12.09.21</div>
+                                    <img class="w-auto" src="./img/nextpage.png" />
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="news">
-                        <img width="100%" class="media__image" src="./img/news.png" />
-                        <div class="text_">
-                            <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
-                            <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
-                            <div class="d-flex justify-content-between ">
-                                <div class="time">12.09.21</div>
-                                <a href="#"><img src="./img/nextpage.png" /></a>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="#">
+                        <div class="news">
+                            <img width="100%" class="media__image" src="./img/news.png" />
+                            <div class="text_">
+                                <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                                <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                                <div class="d-flex justify-content-between ">
+                                    <div class="time">12.09.21</div>
+                                    <img class="w-auto" src="./img/nextpage.png" />
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="news">
-                        <img width="100%" class="media__image" src="./img/news.png" />
-                        <div class="text_">
-                            <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
-                            <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
-                            <div class="d-flex justify-content-between ">
-                                <div class="time">12.09.21</div>
-                                <a href="#"><img src="./img/nextpage.png" /></a>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="#">
+                        <div class="news">
+                            <img width="100%" class="media__image" src="./img/news.png" />
+                            <div class="text_">
+                                <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                                <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                                <div class="d-flex justify-content-between ">
+                                    <div class="time">12.09.21</div>
+                                    <img class="w-auto" src="./img/nextpage.png" />
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="#">
+                        <div class="news">
+                            <img width="100%" class="media__image" src="./img/news.png" />
+                            <div class="text_">
+                                <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                                <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                                <div class="d-flex justify-content-between ">
+                                    <div class="time">12.09.21</div>
+                                    <img class="w-auto" src="./img/nextpage.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="container d-block d-md-none">
             <div class="regular row">
-                <div class="news">
-                    <img width="100%" class="media__image" src="./img/news.png" />
-                    <div class="text_">
-                        <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
-                        <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
-                        <div class="d-flex justify-content-between ">
-                            <div class="time">12.09.21</div>
-                            <a href="#"><img src="./img/nextpage.png" /></a>
+                <a href="#">
+                    <div class="news">
+                        <img width="100%" class="media__image" src="./img/news.png" />
+                        <div class="text_">
+                            <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                            <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="time">12.09.21</div>
+                                <img class="w-auto" src="./img/nextpage.png" />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="news">
-                    <img width="100%" class="media__image" src="./img/news.png" />
-                    <div class="text_">
-                        <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
-                        <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
-                        <div class="d-flex justify-content-between ">
-                            <div class="time">12.09.21</div>
-                            <a href="#"><img src="./img/nextpage.png" /></a>
+                </a>
+                <a href="#">
+                    <div class="news">
+                        <img width="100%" class="media__image" src="./img/news.png" />
+                        <div class="text_">
+                            <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                            <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="time">12.09.21</div>
+                                <img class="w-auto" src="./img/nextpage.png" />
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
+                <a href="#">
+                    <div class="news">
+                        <img width="100%" class="media__image" src="./img/news.png" />
+                        <div class="text_">
+                            <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                            <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="time">12.09.21</div>
+                                <img class="w-auto" src="./img/nextpage.png" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="news">
+                        <img width="100%" class="media__image" src="./img/news.png" />
+                        <div class="text_">
+                            <h4>Lazer epilyasiyasının qızıl standartı nə deməkdir?</h4>
+                            <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
+                            <div class="d-flex justify-content-between ">
+                                <div class="time">12.09.21</div>
+                                <img class="w-auto" src="./img/nextpage.png" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
