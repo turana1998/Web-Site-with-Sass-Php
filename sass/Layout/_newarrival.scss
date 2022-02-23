@@ -1,9 +1,10 @@
 #new_arrival {
     padding-top: 160px;
     background-color: $bg;
-    .regular .next{
+
+    .regular .next {
         position: absolute;
-        top:-27%;
+        top: -27%;
         right: 0;
         width: auto;
         background: $main;
@@ -11,14 +12,16 @@
         border-radius: 50%;
         border: none;
         outline: none;
-        img{
+
+        img {
             width: 20px;
             height: 20px;
         }
     }
-    .regular .prev{
+
+    .regular .prev {
         position: absolute;
-        top:-27%;
+        top: -27%;
         right: 5%;
         width: auto;
         background: $white;
@@ -26,11 +29,13 @@
         border-radius: 50%;
         border: 1px solid $slick-border;
         outline: none;
-        img{
+
+        img {
             width: 20px;
             height: 20px;
         }
     }
+
     .title {
         border-bottom: 1px solid $border;
         padding-bottom: 15px;
@@ -51,20 +56,32 @@
         .image {
             border-bottom: 1px solid $grid-border;
             position: relative;
-            .new_arrival_img{
+            overflow: hidden;
+
+            .new_arrival_img {
                 height: 300px;
                 object-fit: contain;
+                transition: transform 1s ease;
+
+                &:hover {
+                    transform: scale(1.1);
+                    transform-origin: 50% 50%;
+                }
             }
+
             .heading {
                 position: absolute;
+                z-index: 10;
                 width: 100%;
                 background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
+
                 h3 {
                     font: normal bold 16px 'Montserrat', sans-serif;
                     line-height: 33px;
                     text-align: center;
                     color: $black;
-                    &:hover{
+
+                    &:hover {
                         color: $main;
                     }
                 }
@@ -75,7 +92,7 @@
                     outline: none;
                     padding: 13px;
                     border-radius: 50%;
-                    
+
                 }
             }
         }
@@ -91,11 +108,13 @@
 
 
     }
+
     .slick-slide {
         padding: 10px;
     }
+
     @media (min-width: 1200px) {
-       
+
 
         .slick-slide:nth-child(4) {
             padding-right: 0px;

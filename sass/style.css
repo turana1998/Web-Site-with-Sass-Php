@@ -651,16 +651,29 @@
 #new_arrival .new_arrival_item .image {
   border-bottom: 1px solid #CFCFCF;
   position: relative;
+  overflow: hidden;
 }
 
 #new_arrival .new_arrival_item .image .new_arrival_img {
   height: 300px;
   -o-object-fit: contain;
      object-fit: contain;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+#new_arrival .new_arrival_item .image .new_arrival_img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 
 #new_arrival .new_arrival_item .image .heading {
   position: absolute;
+  z-index: 10;
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(21.81%, #FFFFFF), color-stop(135.07%, rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
@@ -753,15 +766,28 @@
   height: 300px;
   -o-object-fit: contain;
      object-fit: contain;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+#equipment .new_arrival_item .new_arrival_img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 
 #equipment .new_arrival_item .image {
   border-bottom: 1px solid #CFCFCF;
   position: relative;
+  overflow: hidden;
 }
 
 #equipment .new_arrival_item .image .heading {
   position: absolute;
+  z-index: 10;
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(21.81%, #FFFFFF), color-stop(135.07%, rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
@@ -906,10 +932,10 @@
 #__equipment .new_arrival_item .image {
   border-bottom: 1px solid #CFCFCF;
   position: relative;
+  overflow: hidden;
 }
 
 #__equipment .new_arrival_item .image .heading {
-  position: absolute;
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(21.81%, #FFFFFF), color-stop(135.07%, rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
@@ -946,6 +972,17 @@
   height: 300px;
   -o-object-fit: contain;
      object-fit: contain;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+#__equipment .new_arrival_item .new_arrival_img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 
 #__equipment .panel {
@@ -1025,10 +1062,29 @@
   height: 300px;
   -o-object-fit: contain;
      object-fit: contain;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+#_equipment .new_arrival_item .new_arrival_img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 
 #_equipment .new_arrival_item .image {
   border-bottom: 1px solid #CFCFCF;
+  overflow: hidden;
+  position: relative;
+}
+
+#_equipment .new_arrival_item .image .heading {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
 }
 
 #_equipment .new_arrival_item .image .heading h3 {
