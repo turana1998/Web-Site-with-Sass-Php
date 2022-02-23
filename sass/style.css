@@ -1430,7 +1430,7 @@
 
 #partners .item {
   height: 125px;
-  width: 125px;
+  width: 125px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

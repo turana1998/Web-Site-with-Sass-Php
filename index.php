@@ -266,9 +266,11 @@
                 <div class="d-flex justify-content-between  align-items-center">
                     <h2 class="p-0 m-0">Lazer və kosmetoloji avadanlıq</h2>
                     <a href="#" class="next-page">
-                        Daha çox <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                        Daha çox <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                stroke="#000" />
+                        </svg>
 
                     </a>
                 </div>
@@ -472,9 +474,11 @@
                 <div class="d-flex justify-content-between  align-items-center">
                     <h2 class="p-0 m-0">Kosmetologiya</h2>
                     <a href="#" class="next-page">
-                        Daha çox <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                        Daha çox <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                stroke="#000" />
+                        </svg>
 
                     </a>
                 </div>
@@ -650,9 +654,11 @@
                 <div class="d-flex justify-content-between  align-items-center">
                     <h2 class="p-0 m-0">Stomatologiya</h2>
                     <a href="#" class="next-page">
-                        Daha çox <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                        Daha çox <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                stroke="#000" />
+                        </svg>
 
                     </a>
                 </div>
@@ -843,9 +849,11 @@
                 <div class="d-flex justify-content-between  align-items-center">
                     <h2 class="p-0 m-0">Media</h2>
                     <a href="#" class="next-page">
-                        Daha çox <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                        Daha çox <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                stroke="#000" />
+                        </svg>
 
                     </a>
                 </div>
@@ -863,9 +871,11 @@
                                 <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
                                 <div class="d-flex justify-content-between ">
                                     <div class="time">12.09.21</div>
-                                    <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                                    <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                            stroke="#000" />
+                                    </svg>
 
                                 </div>
                             </div>
@@ -881,9 +891,11 @@
                                 <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
                                 <div class="d-flex justify-content-between ">
                                     <div class="time">12.09.21</div>
-                                    <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                                    <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                            stroke="#000" />
+                                    </svg>
 
                                 </div>
                             </div>
@@ -899,9 +911,11 @@
                                 <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
                                 <div class="d-flex justify-content-between ">
                                     <div class="time">12.09.21</div>
-                                    <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                                    <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                            stroke="#000" />
+                                    </svg>
 
                                 </div>
                             </div>
@@ -917,9 +931,11 @@
                                 <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
                                 <div class="d-flex justify-content-between ">
                                     <div class="time">12.09.21</div>
-                                    <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                                    <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                            stroke="#000" />
+                                    </svg>
 
                                 </div>
                             </div>
@@ -938,9 +954,11 @@
                             <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
                             <div class="d-flex justify-content-between ">
                                 <div class="time">12.09.21</div>
-                                <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                                <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                        stroke="#000" />
+                                </svg>
 
                             </div>
                         </div>
@@ -954,9 +972,11 @@
                             <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
                             <div class="d-flex justify-content-between ">
                                 <div class="time">12.09.21</div>
-                                <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                                <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                        stroke="#000" />
+                                </svg>
 
                             </div>
                         </div>
@@ -970,9 +990,11 @@
                             <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
                             <div class="d-flex justify-content-between ">
                                 <div class="time">12.09.21</div>
-                                <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                                <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                        stroke="#000" />
+                                </svg>
 
                             </div>
                         </div>
@@ -986,9 +1008,11 @@
                             <p>Lazer, stomotoloji və kosmetoloji məhsulların satışı və servisi...</p>
                             <div class="d-flex justify-content-between ">
                                 <div class="time">12.09.21</div>
-                                <svg width="41" height="12" viewBox="0 0 41 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429" stroke="#000"/>
-</svg>
+                                <svg width="41" height="12" viewBox="0 0 41 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 5.87143H39.6M39.6 5.87143L33.8049 1M39.6 5.87143L33.8049 10.7429"
+                                        stroke="#000" />
+                                </svg>
 
                             </div>
                         </div>
@@ -1010,70 +1034,68 @@
 
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-lg-2">
+        <section id="ltr">
+            <div class="container ">
+                <div class="regular">
+                    <div class="item">
+                        <img src="./img/candela logo BIG tm 1.png" />
+                    </div>
+                    <div class="item">
+                        <img src="./img/cavex 1.png" />
+                    </div>
+                    <div class="item">
+                        <img src="./img/medytox logo.png" />
+                    </div>
+                    <div class="item">
+                        <img src="./img/candela logo BIG tm 1.png" />
+                    </div>
+                    <div class="item">
+                        <img src="./img/euronda (1).png" />
+                    </div>
+                    <div class="item">
+                        <img src="./img/candela logo BIG tm 1.png" />
+                    </div>
                     <div class="item">
                         <img src="./img/candela logo BIG tm 1.png" />
                     </div>
                 </div>
-                <div class="col-4 col-lg-2">
+            </div>
+        </section>
+        <section id="rtl">
+            <div class="container ">
+                <div class="regular" >
+                    <div class="item">
+                        <img src="./img/candela logo BIG tm 1.png" />
+                    </div>
                     <div class="item">
                         <img src="./img/cavex 1.png" />
                     </div>
-                </div>
-                <div class="col-4 col-lg-2">
                     <div class="item">
-                        <img src="./img/dmg logo 1.png" />
+                        <img src="./img/cavex 1.png" />
                     </div>
-                </div>
-                <div class="col-4 col-lg-2">
                     <div class="item">
-                        <img src="./img/lutronics 1.png" />
+                        <img src="./img/cavex 1.png" />
                     </div>
-                </div>
-                <div class="col-4 col-lg-2">
-                    <div class="item">
-                        <img src="./img/neoqi logo 1.png" />
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2">
-                    <div class="item">
-                        <img src="./img/ionto 1.png" />
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2">
-                    <div class="item">
-                        <img src="./img/tokuyama-1.png" />
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2">
-                    <div class="item">
-                        <img src="./img/septodont.png" />
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2">
-                    <div class="item">
-                        <img src="./img/ibsa logo.png" />
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2">
-                    <div class="item">
-                        <img src="./img/Meta-Biomed-Logo.png" />
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2">
-                    <div class="item">
-                        <img src="./img/euronda (1).png" />
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2">
                     <div class="item">
                         <img src="./img/medytox logo.png" />
                     </div>
+                    <div class="item">
+                        <img src="./img/candela logo BIG tm 1.png" />
+                    </div>
+                    <div class="item">
+                        <img src="./img/euronda (1).png" />
+                    </div>
+                    <div class="item">
+                        <img src="./img/candela logo BIG tm 1.png" />
+                    </div>
+                    <div class="item">
+                        <img src="./img/candela logo BIG tm 1.png" />
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+
     </section>
     <!-- Partners section end -->
 

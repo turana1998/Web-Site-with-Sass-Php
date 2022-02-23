@@ -401,6 +401,81 @@ $("#media .regular").slick({
         }
     ]
 });
+$("#ltr .regular").slick({
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 300,
+    prevArrow: false,
+    nextArrow: false,
+    slidesToShow: 6,
+    slidesToScroll: 6,
+    responsive: [{
+            breakpoint: 1224,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 730,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            },
+
+        }
+    ]
+});
+$("#rtl .regular").slick({
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 300,
+    prevArrow: false,
+    nextArrow: false,
+    slidesToShow: 6,
+    slidesToScroll: 6,
+    
+    responsive: [{
+            breakpoint: 1224,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 730,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            },
+
+        }
+    ]
+});
  </script>
 
  </html>
