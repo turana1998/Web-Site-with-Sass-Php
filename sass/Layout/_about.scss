@@ -44,6 +44,22 @@
             line-height: 31px;
             color: $black;
 
+            &:hover {
+                color: $main;
+
+                svg {
+
+                    stroke: $main;
+
+                    path {
+                        stroke: $main;
+                    }
+                }
+
+            }
+
+
+
             img {
                 margin-left: 10px;
             }
@@ -61,7 +77,8 @@
         color: $black;
         margin-bottom: 20px;
     }
-    p{
+
+    p {
         font: normal normal 18px 'Montserrat', sans-serif;
         line-height: 29px;
         color: #414141;

@@ -44,6 +44,22 @@
             line-height: 31px;
             color: $black;
 
+            &:hover {
+                color: $main;
+
+                svg {
+
+                    stroke: $main;
+
+                    path {
+                        stroke: $main;
+                    }
+                }
+
+            }
+
+
+
             img {
                 margin-left: 10px;
             }
