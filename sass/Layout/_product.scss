@@ -72,6 +72,16 @@
     }
 
     .detail-text {
+        #one {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 23px;
+            color: #000000;
+            padding-top: 30px;
+        }
+
         h2 {
             font: normal bold 26px 'Montserrat', sans-serif;
             line-height: 44px;
@@ -85,6 +95,7 @@
             color: #000000;
             margin-bottom: 50px;
         }
+
         .regular .next {
             position: absolute;
             top: 50%;
@@ -195,7 +206,8 @@
             button {
                 width: 15px;
                 height: 15px;
-                &::before{
+
+                &::before {
                     width: 15px;
                     height: 15px;
                 }
@@ -225,11 +237,12 @@
             }
         }
     }
-    .others{
+
+    .others {
         .regular .next {
             position: absolute;
             top: 50%;
-            right: -25px;
+            right: -60px;
             width: auto;
             z-index: 99;
             padding: 13px;
@@ -246,7 +259,7 @@
         .regular .prev {
             position: absolute;
             top: 50%;
-            left: -45px;
+            left: -80px;
             width: auto;
             z-index: 99;
             padding: 13px;
@@ -259,12 +272,15 @@
                 height: 20px;
             }
         }
+
         padding: 80px 0 120px 0;
+
         .new_arrival_item {
             background-color: $white;
             padding: 15px 15px 10px 15px;
             border-radius: 10px;
             width: 90% !important;
+
             .new_arrival_img {
                 height: 300px;
                 object-fit: contain;
@@ -278,12 +294,14 @@
                     position: absolute;
                     width: 100%;
                     background: linear-gradient(180deg, #FFFFFF 21.81%, rgba(255, 255, 255, 0) 135.07%);
+
                     h3 {
                         font: normal bold 16px 'Montserrat', sans-serif;
                         line-height: 33px;
                         text-align: center;
                         color: $black;
-                        &:hover{
+
+                        &:hover {
                             color: $main;
                         }
                     }

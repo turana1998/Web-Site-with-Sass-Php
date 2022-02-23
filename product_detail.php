@@ -20,7 +20,7 @@
             </div>
             
             <div class="row justify-content-between">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-5">
                     <div class="detail">
                         <div class="regular">
                             <div class="detail-item">

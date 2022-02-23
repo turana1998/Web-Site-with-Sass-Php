@@ -1802,6 +1802,16 @@
   color: #FFFFFF;
 }
 
+#product .detail-text #one {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+  padding-top: 30px;
+}
+
 #product .detail-text h2 {
   font: normal bold 26px 'Montserrat', sans-serif;
   line-height: 44px;
@@ -1949,7 +1959,7 @@
 #product .others .regular .next {
   position: absolute;
   top: 50%;
-  right: -25px;
+  right: -60px;
   width: auto;
   z-index: 99;
   padding: 13px;
@@ -1966,7 +1976,7 @@
 #product .others .regular .prev {
   position: absolute;
   top: 50%;
-  left: -45px;
+  left: -80px;
   width: auto;
   z-index: 99;
   padding: 13px;
