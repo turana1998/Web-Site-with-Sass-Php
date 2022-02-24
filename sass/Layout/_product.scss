@@ -239,6 +239,21 @@
     }
 
     .others {
+        .slick-track {
+            
+            .slick-slide:nth-child(4n+1) {
+                padding-left: 0px;
+                padding-right: 20px;
+
+            }
+            
+            .slick-slide {
+                padding-left: 10px;
+                padding-right: 10px;
+
+            }
+        }
+
         .regular .next {
             position: absolute;
             top: 50%;
@@ -279,14 +294,15 @@
             background-color: $white;
             padding: 15px 15px 10px 15px;
             border-radius: 10px;
-            width: 90% !important;
+            width: 100% !important;
+
             &:hover {
                 .heading {
                     h3 {
                         color: $main !important;
                     }
                 }
-    
+
             }
 
             .new_arrival_img {
@@ -309,7 +325,7 @@
                         text-align: center;
                         color: $black;
 
-                        
+
                     }
 
                     button {

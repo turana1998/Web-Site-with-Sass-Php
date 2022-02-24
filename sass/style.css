@@ -1961,6 +1961,16 @@
   padding: 80px 0 120px 0;
 }
 
+#product .others .slick-track .slick-slide:nth-child(4n+1) {
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+#product .others .slick-track .slick-slide {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #product .others .regular .next {
   position: absolute;
   top: 50%;
@@ -1999,7 +2009,7 @@
   background-color: #FFFFFF;
   padding: 15px 15px 10px 15px;
   border-radius: 10px;
-  width: 90% !important;
+  width: 100% !important;
 }
 
 #product .others .new_arrival_item:hover .heading h3 {
@@ -2201,6 +2211,7 @@ input:focus {
 .c-share__toggler img,
 .c-share_options img {
   width: 20px !important;
+  height: 20px !important;
 }
 
 .c-share__toggler {
@@ -2245,6 +2256,7 @@ input:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25) !important;
           box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25) !important;
   padding: 10px !important;
+  border-radius: 50%;
 }
 
 .c-share_options li:not(:last-child) {

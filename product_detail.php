@@ -18,16 +18,47 @@
                 <h2>GentleLase Pro U</h2>
                 <p>Gentlase Pro U - alexandrit lazer cihazlarında qızıl standart</p>
             </div>
-            
+
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-5">
                     <div class="detail">
                         <div class="regular">
                             <div class="detail-item">
+                                <div class="share d-flex justify-content-end">
+                                    <div class="c-share">
+                                        <input class="c-share__input" type="checkbox" id="checkbox">
+                                        <label class="c-share__toggler" for="checkbox">
+                                            <span class="c-share__icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="black" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </span>
+                                        </label>
+
+                                        <ul class="c-share_options" data-title="Share">
+                                            <li>
+                                                <button onclick="location.href='http://adb.az/az'" type="button">
+                                                    <img src="./img/wp.svg" /></button>
+                                            </li>
+                                            <li>
+                                                <button><img src="./img/tg.svg" /></button>
+                                            </li>
+                                            <li>
+                                                <button><img src="./img/fb.svg" /></button>
+                                            </li>
+                                            <li>
+                                                <button><img src="./img/ins.svg" /></button>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
                                 <img src="./img/elm13.png" />
                                 <a class="popup-youtube " href="https://www.youtube.com/watch?v=pBFQdxA-apI">
-                                <button class="video"><i class="fab fa-youtube"></i></button>
-                                 </a>
+                                    <button class="video"><i class="fab fa-youtube"></i></button>
+                                </a>
                             </div>
                             <div class="detail-item">
                                 <img src="./img/elm13.png" />
@@ -109,7 +140,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -122,7 +153,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -135,7 +166,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -148,7 +179,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
@@ -161,7 +192,7 @@
                             <h3>GentleLase Pro U</h3>
                             <button><img src="./img/share.png" /></button>
                         </div>
-                        <img width="100%" class="new_arrival_img"  src="./img/element.png" />
+                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
                     </div>
                     <div class="text">
                         Gentlase Pro U - alexandrit lazer <br>
