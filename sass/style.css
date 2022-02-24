@@ -1260,12 +1260,17 @@
   width: 80%;
   float: right;
   margin-bottom: 25px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+#media_ .news_detail img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #media_ .news_detail .text_ {
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.95);
-  padding: 25px 20px 15px 25px;
+  padding: 25px 20px 15px 0px;
 }
 
 #media_ .news_detail .text_ h4 {

@@ -1,16 +1,20 @@
-#media_{
+#media_ {
     padding-top: 85px;
     background-color: $bg;
+
     .menu-link {
         margin-bottom: 30px;
     }
+
     .title {
         border-bottom: 1px solid $border;
         padding-bottom: 15px;
         margin-bottom: 45px;
-        ::marker{
+
+        ::marker {
             color: $link;
         }
+
         a {
             font: normal 500 14px 'Montserrat', sans-serif;
             line-height: 12px;
@@ -23,7 +27,8 @@
             a {
                 color: $black !important;
             }
-            &::marker{
+
+            &::marker {
                 color: $black !important;
             }
         }
@@ -36,6 +41,7 @@
 
 
     }
+
     .next-page {
         font: normal 500 16px 'Montserrat', sans-serif;
         line-height: 31px;
@@ -65,13 +71,16 @@
     .news {
         border-radius: 10px;
         margin-bottom: 30px;
-        .media__image{
+
+        .media__image {
             height: 220px;
             object-fit: cover;
         }
-        img{
+
+        img {
             padding: 1px;
         }
+
         .text_ {
             min-height: 180px;
             border-radius: 10px;
@@ -101,6 +110,7 @@
 
 
     }
+
     .news_img {
 
         width: 100%;
@@ -112,31 +122,38 @@
     h3 {
         font: normal 600 23px 'Montserrat', sans-serif;
         line-height: 34px;
-         color: $black;
+        color: $black;
     }
-    span{
+
+    span {
         font: normal normal 14px 'Montserrat', sans-serif;
         line-height: 29px;
         color: #3F3F3F;
     }
-    p{
+
+    p {
         font: normal normal 16px 'Montserrat', sans-serif;
         line-height: 29px;
         color: $black;
         margin-top: 40px;
 
     }
+
     .news_detail {
         border-radius: 10px;
         width: 80%;
         float: right;
         margin-bottom: 25px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.95);
+        img{
+            object-fit: cover;
+        }
         .text_ {
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 25px 20px 15px 25px;
 
-           
+            padding: 25px 20px 15px 0px;
+
+
             h4 {
                 font: normal 600 12px 'Montserrat', sans-serif;
                 color: $black;
@@ -162,6 +179,7 @@
 
     }
 }
+
 #media {
     padding-top: 130px;
     background-color: $bg;
@@ -170,9 +188,11 @@
         border-bottom: 1px solid $border;
         padding-bottom: 15px;
         margin-bottom: 45px;
-        ::marker{
+
+        ::marker {
             color: $link;
         }
+
         a {
             font: normal 500 14px 'Montserrat', sans-serif;
             line-height: 12px;
@@ -185,7 +205,8 @@
             a {
                 color: $black !important;
             }
-            &::marker{
+
+            &::marker {
                 color: $black !important;
             }
         }
@@ -225,13 +246,16 @@
 
     .news {
         border-radius: 10px;
-        .media__image{
+
+        .media__image {
             object-fit: cover;
             height: 220px;
         }
-        img{
+
+        img {
             padding: 3px;
         }
+
         .text_ {
             width: 100%;
             min-height: 180px;
@@ -262,5 +286,5 @@
 
 
     }
-    
+
 }
