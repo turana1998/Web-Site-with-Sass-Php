@@ -45,9 +45,15 @@
         padding: 15px 15px 10px 15px;
         border-radius: 10px;
         margin-bottom: 30px;
+        &:hover {
+            .heading {
+                h3 {
+                    color: $main !important;
+                }
+            }
+
+        }
         
-
-
         .new_arrival_img {
             height: 300px;
             object-fit: contain;
@@ -75,9 +81,7 @@
                     text-align: center;
                     color: $black;
 
-                    &:hover {
-                        color: $main;
-                    }
+                   
                 }
 
                 button {

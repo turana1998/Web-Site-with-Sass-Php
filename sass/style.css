@@ -648,6 +648,10 @@
   border-radius: 10px;
 }
 
+#new_arrival .new_arrival_item:hover .heading h3 {
+  color: #328BE7 !important;
+}
+
 #new_arrival .new_arrival_item .image {
   border-bottom: 1px solid #CFCFCF;
   position: relative;
@@ -684,10 +688,6 @@
   line-height: 33px;
   text-align: center;
   color: #000000;
-}
-
-#new_arrival .new_arrival_item .image .heading h3:hover {
-  color: #328BE7;
 }
 
 #new_arrival .new_arrival_item .image .heading button {
@@ -762,6 +762,10 @@
   margin-bottom: 30px;
 }
 
+#equipment .new_arrival_item:hover .heading h3 {
+  color: #328BE7 !important;
+}
+
 #equipment .new_arrival_item .new_arrival_img {
   height: 300px;
   -o-object-fit: contain;
@@ -798,10 +802,6 @@
   line-height: 33px;
   text-align: center;
   color: #000000;
-}
-
-#equipment .new_arrival_item .image .heading h3:hover {
-  color: #328BE7;
 }
 
 #equipment .new_arrival_item .image .heading button {
@@ -929,6 +929,10 @@
   margin-bottom: 30px;
 }
 
+#__equipment .new_arrival_item:hover .heading h3 {
+  color: #328BE7 !important;
+}
+
 #__equipment .new_arrival_item .image {
   border-bottom: 1px solid #CFCFCF;
   position: relative;
@@ -946,10 +950,6 @@
   line-height: 33px;
   text-align: center;
   color: #000000;
-}
-
-#__equipment .new_arrival_item .image .heading h3:hover {
-  color: #328BE7;
 }
 
 #__equipment .new_arrival_item .image .heading button {
@@ -1058,6 +1058,10 @@
   margin-bottom: 30px;
 }
 
+#_equipment .new_arrival_item:hover .heading h3 {
+  color: #328BE7 !important;
+}
+
 #_equipment .new_arrival_item .new_arrival_img {
   height: 300px;
   -o-object-fit: contain;
@@ -1092,10 +1096,6 @@
   line-height: 33px;
   text-align: center;
   color: #000000;
-}
-
-#_equipment .new_arrival_item .image .heading h3:hover {
-  color: #328BE7;
 }
 
 #_equipment .new_arrival_item .image .heading button {
@@ -1997,6 +1997,10 @@
   width: 90% !important;
 }
 
+#product .others .new_arrival_item:hover .heading h3 {
+  color: #328BE7 !important;
+}
+
 #product .others .new_arrival_item .new_arrival_img {
   height: 300px;
   -o-object-fit: contain;
@@ -2020,10 +2024,6 @@
   line-height: 33px;
   text-align: center;
   color: #000000;
-}
-
-#product .others .new_arrival_item .image .heading h3:hover {
-  color: #328BE7;
 }
 
 #product .others .new_arrival_item .image .heading button {
@@ -2064,7 +2064,7 @@ ul {
 }
 
 p {
-  word-break: break-all !important;
+  word-break: break-word !important;
 }
 
 .container {

@@ -53,6 +53,15 @@
         padding: 15px 15px 10px 15px;
         border-radius: 10px;
 
+        &:hover {
+            .heading {
+                h3 {
+                    color: $main !important;
+                }
+            }
+
+        }
+
         .image {
             border-bottom: 1px solid $grid-border;
             position: relative;
@@ -80,10 +89,6 @@
                     line-height: 33px;
                     text-align: center;
                     color: $black;
-
-                    &:hover {
-                        color: $main;
-                    }
                 }
 
                 button {
