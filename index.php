@@ -75,13 +75,41 @@
         </div>
         <div class="container d-none d-md-block">
             <div class="regular row">
-                <a href="#">
-                    <div class="new_arrival_item">
+
+                <div class="new_arrival_item">
+                    <a href="#">
                         <div class="image">
                             <div class="heading d-flex justify-content-between ">
                                 <h3>GentleLase Pro U</h3>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#share"><img src="./img/share.png" /></button>
+                                <div class="c-share">
+                                    <input class="c-share__input" type="checkbox" id="checkbox">
+                                    <label class="c-share__toggler" for="checkbox">
+                                        <span class="c-share__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                                                class="bi bi-share" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                            </svg>
+                                        </span>
+                                    </label>
+
+                                    <ul class="c-share_options" data-title="Share">
+                                        <li>
+                                            <button onclick="location.href='http://adb.az/az'" type="button">
+                                                <img src="./img/wp.svg" /></button>
+                                        </li>
+                                        <li>
+                                            <button><img src="./img/tg.svg" /></button>
+                                        </li>
+                                        <li>
+                                            <button><img src="./img/fb.svg" /></button>
+                                        </li>
+                                        <li>
+                                            <button><img src="./img/ins.svg" /></button>
+                                        </li>
+
+                                    </ul>
+                                </div>
                             </div>
                             <img width="100%" class="new_arrival_img" src="./img/element.png" />
                         </div>
@@ -89,170 +117,57 @@
                             Gentlase Pro U - alexandrit lazer <br>
                             cihazlarında qızıl standart
                         </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#share"><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#share"><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#share"><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#share"><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#share"><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#share"><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
+
 
             </div>
         </div>
         <div class="container d-block d-md-none">
             <div class="regular row">
                 <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-end ">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#share"><img src="./img/share.png" /></button>
+                    <a href="#">
+                        <div class="image">
+                            <div class="heading d-flex justify-content-end ">
+                                <div class="c-share">
+                                    <input class="c-share__input" type="checkbox" id="checkbox2">
+                                    <label class="c-share__toggler" for="checkbox2">
+                                        <span class="c-share__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                                                class="bi bi-share" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                            </svg>
+                                        </span>
+                                    </label>
+
+                                    <ul class="c-share_options" data-title="Share">
+                                        <li>
+                                            <button onclick="location.href='http://adb.az/az'" type="button">
+                                                <img src="./img/wp.svg" /></button>
+                                        </li>
+                                        <li>
+                                            <button><img src="./img/tg.svg" /></button>
+                                        </li>
+                                        <li>
+                                            <button><img src="./img/fb.svg" /></button>
+                                        </li>
+                                        <li>
+                                            <button><img src="./img/ins.svg" /></button>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
                         </div>
-                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                    </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
-                </div>
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-end ">
-                            <button><img src="./img/share.png" /></button>
+                        <div class="text">
+                            Gentlase Pro U - alexandrit lazer <br>
+                            cihazlarında qızıl standart
                         </div>
-                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                    </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
+                    </a>
                 </div>
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-end ">
-                            <button><img src="./img/share.png" /></button>
-                        </div>
-                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                    </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
-                </div>
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-end ">
-                            <button><img src="./img/share.png" /></button>
-                        </div>
-                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                    </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
-                </div>
-                <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-end ">
-                            <button><img src="./img/share.png" /></button>
-                        </div>
-                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                    </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
-                </div>
+
 
             </div>
         </div>
@@ -285,8 +200,35 @@
                             <div class="image">
                                 <div class="heading d-flex justify-content-between ">
                                     <h3>Clatuu</h3>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#share"><img src="./img/share.png" /></button>
+                                    <div class="c-share">
+                                        <input class="c-share__input" type="checkbox" id="checkbox3">
+                                        <label class="c-share__toggler" for="checkbox3">
+                                            <span class="c-share__icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="black" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </span>
+                                        </label>
+
+                                        <ul class="c-share_options" data-title="Share">
+                                            <li>
+                                                <button onclick="location.href='http://adb.az/az'" type="button">
+                                                    <img src="./img/wp.svg" /></button>
+                                            </li>
+                                            <li>
+                                                <button><img src="./img/tg.svg" /></button>
+                                            </li>
+                                            <li>
+                                                <button><img src="./img/fb.svg" /></button>
+                                            </li>
+                                            <li>
+                                                <button><img src="./img/ins.svg" /></button>
+                                            </li>
+
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-6 text-center">
@@ -307,111 +249,24 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-lg-3">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3">
-                    <div class="new_arrival_item">
-                        <div class="image">
-                            <div class="heading d-flex justify-content-between ">
-                                <h3>GentleLase Pro U</h3>
-                                <button><img src="./img/share.png" /></button>
-                            </div>
-                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                        </div>
-                        <div class="text">
-                            Gentlase Pro U - alexandrit lazer <br>
-                            cihazlarında qızıl standart
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
         <div class="container d-block d-md-none">
             <div class="regular row">
                 <div class="new_arrival_item">
-                    <div class="image">
-                        <div class="heading d-flex justify-content-end ">
-                            <button><img src="./img/share.png" /></button>
+                    <a href="#">
+                        <div class="image">
+                            <div class="heading d-flex justify-content-end ">
+                                <button><img src="./img/share.png" /></button>
+                            </div>
+                            <img width="100%" class="new_arrival_img" src="./img/element.png" />
                         </div>
-                        <img width="100%" class="new_arrival_img" src="./img/element.png" />
-                    </div>
-                    <div class="text">
-                        Gentlase Pro U - alexandrit lazer <br>
-                        cihazlarında qızıl standart
-                    </div>
+                        <div class="text">
+                            Gentlase Pro U - alexandrit lazer <br>
+                            cihazlarında qızıl standart
+                        </div>
+                    </a>
                 </div>
                 <div class="new_arrival_item">
                     <div class="image">
@@ -1063,7 +918,7 @@
         </section>
         <section id="rtl">
             <div class="container ">
-                <div class="regular" >
+                <div class="regular">
                     <div class="item">
                         <img src="./img/candela logo BIG tm 1.png" />
                     </div>
