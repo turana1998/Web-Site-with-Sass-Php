@@ -98,9 +98,12 @@ $malibu: #639eff;
 $tundora: #464646;
 
 .c-share {
-    position: relative;
+    position: absolute;
     width: 40px;
     height: 40px;
+    right:13px; 
+    top: 13px; 
+    z-index:21;
 }
 
 .c-share__input {
@@ -112,7 +115,6 @@ $tundora: #464646;
             border: none;
             outline: none;
             box-shadow: none;
-            padding-top: 50px;
         }
 
         .c-share__toggler {
@@ -142,12 +144,10 @@ $tundora: #464646;
 
 .c-share__toggler,
 .c-share_options {
-    position: absolute;
-    right: 0;
+    width: 40px;
     width: inherit;
     height: inherit;
     border-radius: 50%;
-    background: #EEEEEE;
 
     img {
         width: 20px !important;
@@ -162,6 +162,7 @@ $tundora: #464646;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #EEEEEE;
 }
 
 .c-share__icon {
@@ -173,28 +174,26 @@ $tundora: #464646;
     list-style: none;
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
     transition: 0.2s;
 
-
-
     li {
-        font-size: 0.875em;
+        background-color: #FFFFFF !important;
+        border: 1px solid rgba(220, 220, 220, 0.1) !important;
+        box-sizing: border-box !important;
+        box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25) !important;
+        padding: 10px !important;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
         color: $tundora;
         cursor: pointer;
 
-        button {
-            background-color: #FFFFFF !important;
-            border: 0.1px solid #f8f6f6 !important;
-            box-sizing: border-box !important;
-            box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25) !important;
-            padding: 10px !important;
-            border-radius: 50%;
-
+        &:first-child {
+            margin-top: 10px;
         }
 
         &:not(:last-child) {
-            margin-bottom: 0.75em;
+            margin-bottom: 13px;
         }
     }
 

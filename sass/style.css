@@ -1717,12 +1717,15 @@
   border: none;
   border-bottom: 0.3px solid #B3B3B3;
   border-radius: 0;
+  height: auto;
+  padding-bottom: 14px;
 }
 
 #contact .contact-form label {
   font: normal 300 16px 'Montserrat', sans-serif;
   line-height: 22px;
   color: #B3B3B3;
+  padding-left: 0;
 }
 
 #contact .contact-form button {
@@ -1893,6 +1896,11 @@
 
 #product .tabcontent {
   display: none;
+}
+
+#product .tabcontent p {
+  padding: 0;
+  margin: 0;
 }
 
 #product .active {
@@ -2157,9 +2165,12 @@ input:focus {
 }
 
 .c-share {
-  position: relative;
+  position: absolute;
   width: 40px;
   height: 40px;
+  right: 13px;
+  top: 13px;
+  z-index: 21;
 }
 
 .c-share__input {
@@ -2172,7 +2183,6 @@ input:focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  padding-top: 50px;
 }
 
 .c-share__input:checked ~ .c-share__toggler {
@@ -2200,12 +2210,10 @@ input:focus {
 
 .c-share__toggler,
 .c-share_options {
-  position: absolute;
-  right: 0;
+  width: 40px;
   width: inherit;
   height: inherit;
   border-radius: 50%;
-  background: #EEEEEE;
 }
 
 .c-share__toggler img,
@@ -2226,6 +2234,7 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: #EEEEEE;
 }
 
 .c-share__icon svg {
@@ -2237,30 +2246,31 @@ input:focus {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow: hidden;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 .c-share_options li {
-  font-size: 0.875em;
-  color: #464646;
-  cursor: pointer;
-}
-
-.c-share_options li button {
   background-color: #FFFFFF !important;
-  border: 0.1px solid #f8f6f6 !important;
+  border: 1px solid rgba(220, 220, 220, 0.1) !important;
   -webkit-box-sizing: border-box !important;
           box-sizing: border-box !important;
   -webkit-box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25) !important;
           box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25) !important;
   padding: 10px !important;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  color: #464646;
+  cursor: pointer;
+}
+
+.c-share_options li:first-child {
+  margin-top: 10px;
 }
 
 .c-share_options li:not(:last-child) {
-  margin-bottom: 0.75em;
+  margin-bottom: 13px;
 }
 
 .c-share_options::before,
@@ -2655,7 +2665,7 @@ input:focus {
   }
   #partners .item {
     height: 80px;
-    width: 80px;
+    width: 80px !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
