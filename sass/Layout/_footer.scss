@@ -24,7 +24,6 @@
                 border-bottom: 1px solid;
                 display: inline;
                 padding-bottom: 5px;
-                transition: 1s;
                 &:hover{
                     color: $main;
                 }
@@ -37,6 +36,9 @@
                     font: normal 300 14px "Montserrat", sans-serif;
                     line-height: 26px;
                     color: $black;
+                    &:hover{
+                        color: $main;
+                    }
                 }
             }
 

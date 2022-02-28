@@ -530,8 +530,6 @@
   border-bottom: 1px solid;
   display: inline;
   padding-bottom: 5px;
-  -webkit-transition: 1s;
-  transition: 1s;
 }
 
 #footer .footer .item h5:hover {
@@ -546,6 +544,10 @@
   font: normal 300 14px "Montserrat", sans-serif;
   line-height: 26px;
   color: #000000;
+}
+
+#footer .footer .item ul li a:hover {
+  color: #328BE7;
 }
 
 #footer .footer .item .social {
@@ -1257,7 +1259,7 @@
 
 #media_ .news_detail {
   border-radius: 10px;
-  width: 80%;
+  width: 85%;
   float: right;
   margin-bottom: 25px;
   border-radius: 10px;
