@@ -15,11 +15,11 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-between">
             <div class="col-12 col-lg-6">
                 <img class="about_img" src="./img/media.png" />
             </div>
-            <div class="col-12 col-lg-6 px-xl-5">
+            <div class="col-12 col-lg-5">
                 <h4>Arash Dental&Beauty</h4>
                 <p>Arash şirkəti, 1994-cü ildə təsis edilmiş və hazırda Azərbaycanda stomatoloji, kosmetoloji avadanlıq
                     və məhsulların satışında liderlik mövqeyindədir.
@@ -33,7 +33,7 @@
                     yalnız yüksək keyfiyyətli və orijinal məhsullar təklif edir.
                 </p>
             </div>
-            <div class="col-12 col-lg-6 px-xl-5">
+            <div class="col-12 col-lg-5">
                 <h4>Arash Dental&Beauty</h4>
                 <p>Bütün mütəxəssislər, mütəmadi olaraq, beynəlxalq seminar,təlim və kurslarda iştirak etməklə öz
                     kvalifikasiyalarını artırırlar.
@@ -51,7 +51,7 @@
             <div class="col-12 col-lg-6">
                 <img class="about_img" src="./img/media.png" />
             </div>
-            <div class="col-12 col-lg-6 px-xl-5">
+            <div class="col-12 col-lg-5">
                 <h4>Avadanlıqların servis xidməti</h4>
                 <p>Satışa çıxarılan bütün avadanlıqlar rəsmi zəmanət ilə təmin olunur və avadanlığın texniki xidməti
                     üçün zəruri olan sənədlər təqdim edilir.
@@ -62,7 +62,7 @@
                     avadanlıqlarda texniki xidmət göstərir.
                 </p>
             </div>
-            <div class="col-12 col-lg-6 px-xl-5">
+            <div class="col-12 col-lg-5">
 
                 <p>Bütün aparılan işlərdə, servis zəmanəti təqdim edilir və təmir edilərkən də yalnız orijinal ehtiyat
                     hissələrindən istifadə edilir.

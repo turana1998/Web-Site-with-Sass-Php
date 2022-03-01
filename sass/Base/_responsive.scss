@@ -555,8 +555,14 @@
         }
 
         .tab {
+            .active {
+                a{
+                    padding-bottom: 17px;
+                }
+            }
             .tablinks {
                 padding: 15px 0 !important;
+                
 
                 a {
                     font: normal 500 14px 'Montserrat', sans-serif;

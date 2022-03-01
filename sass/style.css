@@ -1697,7 +1697,7 @@
 
 #contact .contact-text {
   margin-left: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 29px;
 }
 
 #contact .contact-text b {
@@ -1783,14 +1783,10 @@
   margin-bottom: 100px;
 }
 
-#product .detail-item {
-  padding: 15px;
-}
-
 #product .detail-item img {
-  height: 400px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  height: 510px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #product .detail-item .video {
@@ -2731,6 +2727,9 @@ input:focus {
     color: #000000;
     margin-bottom: 20px;
     text-align: start;
+  }
+  #product .tab .active a {
+    padding-bottom: 17px;
   }
   #product .tab .tablinks {
     padding: 15px 0 !important;
